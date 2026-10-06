@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1116">
+  <meta name="description" content="A geography playground. Find 20 missing countries and territories on a detailed, zoomable world map, or explore the places that make up our planet.">
+  <title>Meridian — 20 Missing Countries</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to game</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="Meridian home"><img src="./favicon.svg" alt="" width="34" height="34"><span>meridian<span class="brand-dot">.</span></span></a>
+    <nav aria-label="Main navigation">
+      <button class="nav-link active" id="nav-play" aria-current="page">Play</button>
+      <button class="nav-link" id="nav-explore">Explore the atlas</button>
+      <button class="nav-link" id="nav-about">About</button>
+    </nav>
+    <span class="header-note"><span class="status-dot"></span>A little closer to the world</span>
+  </header>
+
+  <main id="main">
+    <section class="intro">
+      <div>
+        <p class="eyebrow"><span class="eyebrow-line"></span>THE GEOGRAPHY PLAYGROUND <span class="edition">/ 01</span></p>
+        <h1 id="page-title">20 missing countries<span>.</span></h1>
+        <p id="page-description" class="intro-description">Something’s missing from the world. Find the countries and territories that have disappeared.</p>
+      </div>
+      <div class="intro-tag" id="intro-tag"><span class="tiny-globe">◎</span><span>One planet.<br><strong>Every corner counts.</strong></span></div>
+    </section>
+
+    <div class="main-grid">
+      <section class="map-card" aria-label="Interactive world map">
+        <div class="map-toolbar">
+          <div class="map-heading"><span class="status-dot"></span><span id="map-heading">THE WORLD</span></div>
+          <div class="region-tabs" aria-label="Map regions">
+            <button class="region active" data-region="world">World</button>
+            <button class="region" data-region="europe">Europe</button>
+            <button class="region" data-region="caribbean">Caribbean</button>
+            <button class="region" data-region="pacific">Pacific</button>
+          </div>
+          <button class="icon-button" id="fullscreen" aria-label="Expand map" title="Expand map"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5m13-5h5v5M3 16v5h5m8 0h5v-5"/></svg></button>
+        </div>
+        <div id="map-viewport" class="map-viewport" tabindex="0" role="application" aria-label="World map. Scroll or use plus and minus to zoom, drag or use arrow keys to pan. Press zero to reset.">
+          <svg id="world-map" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"></svg>
+          <div class="map-loading" id="map-loading"><span class="loading-orbit"></span><span>Bringing the world into focus…</span></div>
+          <div class="map-controls" aria-label="Zoom controls">
+            <button id="zoom-in" class="icon-button" title="Zoom in" aria-label="Zoom in">+</button>
+            <button id="zoom-out" class="icon-button" title="Zoom out" aria-label="Zoom out">−</button>
+            <span></span>
+            <button id="zoom-home" class="icon-button" title="Reset map" aria-label="Reset map"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="6"/><path d="M12 2v4m0 12v4M2 12h4m12 0h4"/></svg></button>
+          </div>
+          <div class="map-caption"><span>SCROLL TO ZOOM <span class="caption-separator">/</span> DRAG TO PAN</span><span id="zoom-level">1×</span></div>
+          <div class="map-tooltip" id="map-tooltip" hidden></div>
+        </div>
+        <div id="mobile-guess-dock" class="mobile-guess-dock" hidden><div class="mobile-round-meta"><span id="mobile-round-score">0 / 20 found</span><span id="mobile-round-timer">10:00</span></div></div>
+        <div class="map-legend"><div><span class="legend-swatch land"></span>Present <span class="legend-swatch water"></span>Water &amp; missing places</div><span id="map-detail">Detailed coastlines · Island-level zoom</span></div>
+      </section>
+
+      <aside class="side-card" id="game-panel" aria-label="Game controls">
+        <div class="card-topline"><span class="eyebrow">THE CHALLENGE</span><span class="game-number">01</span></div>
+        <h2>A world with gaps.</h2>
+        <p class="card-description">Twenty places vanish into the blue. Name them to bring them back.</p>
+        <div class="scoreboard">
+          <div><span class="stat-label">PLACES FOUND</span><div class="score"><span id="score">0</span><span class="score-total">/ 20</span></div></div>
+          <div class="timer-stat"><span class="stat-label" id="timer-label">TIME LIMIT</span><div class="timer" id="timer">10:00</div></div>
+        </div>
+        <div id="setup-controls">
+          <label class="field-label" for="pool">The answer pool</label>
+          <select id="pool"><option value="all">Countries &amp; territories</option><option value="countries">Countries only</option></select>
+          <label class="field-label" for="duration">Your pace</label>
+          <select id="duration"><option value="600">10 minutes</option><option value="210">3½ minutes · Classic</option><option value="null">Untimed · Take your time</option></select>
+          <button class="primary-button" id="start" disabled><span>Start exploring</span><span aria-hidden="true">↗</span></button>
+          <p class="setup-note" id="pool-note">Loading countries and territories…</p>
+        </div>
+        <div id="playing-controls" hidden>
+          <form id="guess-form" autocomplete="off">
+            <label class="field-label" for="answer">Name a missing place</label>
+            <div class="answer-field"><input id="answer" type="text" placeholder="Type a country or territory…" spellcheck="false" autocapitalize="none" aria-describedby="answer-feedback"><button type="submit" aria-label="Submit answer">↵</button></div>
+          </form>
+          <p class="answer-feedback" id="answer-feedback" role="status">Answers are accepted as you type.</p>
+          <div class="progress-track"><span id="progress"></span></div>
+          <div class="found-heading"><span class="stat-label">BACK ON THE MAP</span><span id="found-count">0 places</span></div>
+          <ol id="found-list" class="found-list"><li class="empty-found">Your discoveries will appear here.</li></ol>
+          <button id="give-up" class="text-button">Finish &amp; reveal answers <span aria-hidden="true">→</span></button>
+        </div>
+        <div id="results-controls" hidden>
+          <div class="result-message"><span id="result-icon">✦</span><h3 id="result-title">A little more of the world.</h3><p id="result-description"></p></div>
+          <button class="primary-button" id="play-again"><span>Play another round</span><span aria-hidden="true">↗</span></button>
+          <details class="result-answers" open><summary>The 20 missing places <span id="result-count"></span></summary><ol id="result-list"></ol></details>
+        </div>
+        <div class="card-footnote" id="game-footnote"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span>A fresh map every round.<br>No two adventures are quite the same.</span></div>
+      </aside>
+
+      <aside id="explore-panel" class="side-card explorer" aria-label="Atlas explorer" hidden>
+        <div class="card-topline"><span class="eyebrow">THE ATLAS</span><span class="game-number">◎</span></div>
+        <h2>Meet the world.</h2>
+        <p class="card-description">Look up a place or select its shape on the map. Even the smallest islands belong.</p>
+        <label class="field-label" for="place-search">Find your next corner</label>
+        <div class="search-field"><span aria-hidden="true">⌕</span><input id="place-search" type="search" placeholder="Search countries & territories…" autocomplete="off"></div>
+        <p class="search-count" id="search-count"></p>
+        <div id="place-detail" class="place-detail" hidden></div>
+        <ul id="place-list" class="place-list"></ul>
+      </aside>
+    </div>
+
+    <section class="below-map" id="below-map">
+      <div class="how-to"><span class="info-icon">↗</span><div><h3>Go a little deeper.</h3><p>Zoom into coastlines, scan the islands, and look for a shape that should be there. Missing land is the same blue as the ocean.</p></div></div>
+      <div class="coverage-card"><span id="coverage-count">—</span><div><h3>Countries &amp; territories</h3><p>From continents to the smallest corners.</p><button id="coverage-link" class="inline-link">What’s on the map <span aria-hidden="true">↗</span></button></div></div>
+    </section>
+  </main>
+
+  <footer><span>MERIDIAN <span class="footer-slash">/</span> A geography playground</span><span>Made for the endlessly curious. <button id="footer-sources">Map &amp; sources ↗</button></span></footer>
+
+  <dialog id="about-dialog" class="about-dialog">
+    <button id="close-about" class="dialog-close icon-button" aria-label="Close about">×</button>
+    <p class="eyebrow">A LITTLE ABOUT MERIDIAN</p>
+    <h2>The whole world.<br>A few missing pieces.</h2>
+    <p>A geography playground for people who like looking a little closer. Our first game takes the idea of <a href="https://www.jetpunk.com/user-quizzes/139806/world-map-without-20-random-countries" target="_blank" rel="noreferrer">JetPunk’s 20 missing countries quiz</a> and opens the answer pool to small countries and separately administered territories.</p>
+    <h3>How it works</h3>
+    <p>Start a round, then name any of the 20 places that vanished. Correct answers return in green. Water and missing land share exactly the same blue; there are no borders, markers, or labels to give a missing place away. Common names and abbreviations work, and accents are optional.</p>
+    <h3>What’s included</h3>
+    <p id="coverage-description">Loading map coverage…</p>
+    <p><a href="./data/SOURCES.md" target="_blank" rel="noreferrer">Map coverage and boundary notes ↗</a> · <a href="./data/AUTONOMY-SOURCES.md" target="_blank" rel="noreferrer">Autonomy sources and remaining gaps ↗</a></p>
+    <p>“Territory” is a gameplay category, not a statement about sovereignty. The map uses Natural Earth’s default boundary view. Disputed borders and names can have other interpretations.</p>
+    <h3>Map &amp; sources</h3>
+    <p id="source-description">Boundaries: <a href="https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-0-details/" target="_blank" rel="noreferrer">Natural Earth, 1:10m map units</a> (<a href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noreferrer">public domain</a>). Coastlines are generalized at this scale, so zoom makes small places visible but does not add street-level detail.</p>
+    <button class="primary-button" id="about-explore"><span>Explore the atlas</span><span aria-hidden="true">↗</span></button>
+  </dialog>
+</body>
+</html>

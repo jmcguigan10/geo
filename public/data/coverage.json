@@ -1,0 +1,9343 @@
+{
+  "version": 1,
+  "width": 3600,
+  "height": 1800,
+  "projection": "equirectangular",
+  "fillRule": "nonzero",
+  "source": {
+    "name": "Natural Earth 1:10m",
+    "version": "5.1.1",
+    "license": "Public domain",
+    "url": "https://www.naturalearthdata.com/",
+    "files": {
+      "ne_10m_admin_0_map_units.geojson": "57da82be755f4afccd8f3b14251bb2752f5df1395f47d2d86f817470c4a48862",
+      "ne_10m_admin_1_states_provinces.geojson": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+      "ne_10m_admin_0_disputed_areas.geojson": "9cafef8b7dfb6b164dc58f218f981f4ace9f716f6c03795d4c62d1ac9f3d50f5"
+    },
+    "commit": "ca96624a56bd078437bca8184e78163e5039ad19",
+    "geometryToleranceDegrees": 0.025,
+    "detailToleranceDegrees": 0.00125,
+    "coordinatePrecisionDegrees": 0.0001,
+    "detailFile": "world-detail.json",
+    "vaticanCorrection": "https://gist.github.com/jaakla/ea9d93d542b5cff718163f84b07673c3"
+  },
+  "coverage": {
+    "countries": 197,
+    "territories": 154,
+    "autonomousRegions": 102,
+    "nonPlayable": 29,
+    "notes": [
+      "Countries include 193 United Nations members, Palestine, Vatican City, Kosovo and Taiwan.",
+      "Dependencies, special territories, documented internal autonomies and selected self-administered disputed territories are individually playable.",
+      "Autonomy is not a universal legal classification. This is a documented broad inventory, not every provincial government worldwide.",
+      "Uninhabited claims, research-only territories, military bases and demilitarized zones are outside the answer pool.",
+      "Natural Earth boundaries are generalized for 1:10m display, not cadastral or real-time political boundaries.",
+      "Bangsamoro and Papua have the specific geometry limitations recorded in their status notes. Newer and subprovincial Panama comarcas are not separately mapped."
+    ]
+  },
+  "entities": [
+    {
+      "id": "abkhazia",
+      "name": "Abkhazia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Disputed",
+      "iso2": "GE",
+      "sourceUnits": [
+        "B35"
+      ],
+      "subtype": "Disputed territory",
+      "statusNote": "Self-administered; claimed by Georgia. Display does not imply recognition.",
+      "bbox": [
+        2199.86,
+        464.242,
+        2221.543,
+        475.935
+      ],
+      "center": [
+        2212.791,
+        469.421
+      ]
+    },
+    {
+      "id": "id-ac",
+      "name": "Aceh",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Indonesia",
+      "iso2": "ID",
+      "sourceUnits": [
+        "ID-AC"
+      ],
+      "parentId": "idn",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2750.127,
+        840.899,
+        2782.825,
+        879.853
+      ],
+      "center": [
+        2769.278,
+        856.89
+      ]
+    },
+    {
+      "id": "gea",
+      "name": "Adjara",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Georgia",
+      "iso2": "GE",
+      "sourceUnits": [
+        "GEA"
+      ],
+      "parentId": "geo",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2215.208,
+        480.974,
+        2225.866,
+        485.782
+      ],
+      "center": [
+        2220.743,
+        483.57
+      ]
+    },
+    {
+      "id": "ru-ad",
+      "name": "Adygea",
+      "kind": "territory",
+      "aliases": [
+        "Adygey"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-AD"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2186.719,
+        448.065,
+        2207.541,
+        462.488
+      ],
+      "center": [
+        2199.738,
+        454.324
+      ]
+    },
+    {
+      "id": "afg",
+      "name": "Afghanistan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Afghanistan",
+      "iso2": "AF",
+      "sourceUnits": [
+        "AFG"
+      ],
+      "bbox": [
+        2404.868,
+        515.263,
+        2548.923,
+        606.134
+      ],
+      "center": [
+        2464.966,
+        558.357
+      ]
+    },
+    {
+      "id": "wsb",
+      "name": "Akrotiri Sovereign Base Area",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Asia",
+      "sovereign": "United Kingdom",
+      "iso2": "-99",
+      "sourceUnits": [
+        "WSB"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2127.601,
+        552.991,
+        2130.303,
+        554.315
+      ],
+      "center": [
+        2129.79,
+        553.992
+      ]
+    },
+    {
+      "id": "alb",
+      "name": "Albania",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Albania",
+      "iso2": "AL",
+      "sourceUnits": [
+        "ALB"
+      ],
+      "bbox": [
+        1992.72,
+        473.452,
+        2010.367,
+        503.63
+      ],
+      "center": [
+        2001.138,
+        493.451
+      ]
+    },
+    {
+      "id": "alderney",
+      "name": "Alderney",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GG",
+      "sourceUnits": [
+        "GGA"
+      ],
+      "subtype": "Self-governing Crown jurisdiction",
+      "bbox": [
+        1777.738,
+        402.686,
+        1778.297,
+        402.97
+      ],
+      "center": [
+        1778.019,
+        402.834
+      ]
+    },
+    {
+      "id": "dza",
+      "name": "Algeria",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Algeria",
+      "iso2": "DZ",
+      "sourceUnits": [
+        "DZA"
+      ],
+      "bbox": [
+        1713.176,
+        529.061,
+        1919.689,
+        710.244
+      ],
+      "center": [
+        1828.082,
+        626.026
+      ]
+    },
+    {
+      "id": "ru-al",
+      "name": "Altai Republic",
+      "kind": "territory",
+      "aliases": [
+        "Gorno-Altay"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-AL"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2640.049,
+        373.322,
+        2698.692,
+        409.29
+      ],
+      "center": [
+        2670.25,
+        392.747
+      ]
+    },
+    {
+      "id": "asm",
+      "name": "American Samoa",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "AS",
+      "sourceUnits": [
+        "ASM"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        89.135,
+        1010.514,
+        118.395,
+        1045.329
+      ],
+      "center": [
+        92.528,
+        1043.267
+      ]
+    },
+    {
+      "id": "es-an",
+      "name": "Andalusia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-CA",
+        "ES-H",
+        "ES-AL",
+        "ES-GR",
+        "ES-MA",
+        "ES-SE",
+        "ES-CO",
+        "ES-J"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1724.703,
+        512.716,
+        1783.584,
+        539.935
+      ],
+      "center": [
+        1743.171,
+        525.637
+      ]
+    },
+    {
+      "id": "and",
+      "name": "Andorra",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Andorra",
+      "iso2": "AD",
+      "sourceUnits": [
+        "AND"
+      ],
+      "bbox": [
+        1814.065,
+        473.506,
+        1817.651,
+        475.713
+      ],
+      "center": [
+        1815.394,
+        474.524
+      ]
+    },
+    {
+      "id": "ago",
+      "name": "Angola",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Angola",
+      "iso2": "AO",
+      "sourceUnits": [
+        "AGO"
+      ],
+      "bbox": [
+        1916.694,
+        943.912,
+        2040.617,
+        1080.314
+      ],
+      "center": [
+        1979.842,
+        1021.828
+      ]
+    },
+    {
+      "id": "aia",
+      "name": "Anguilla",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United Kingdom",
+      "iso2": "AI",
+      "sourceUnits": [
+        "AIA"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1165.712,
+        713.987,
+        1170.743,
+        718.309
+      ],
+      "center": [
+        1169.736,
+        717.57
+      ]
+    },
+    {
+      "id": "ata",
+      "name": "Antarctica",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Antarctica",
+      "sovereign": "Antarctica",
+      "iso2": "AQ",
+      "sourceUnits": [
+        "ATA"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        0.0,
+        1505.162,
+        3600.0,
+        1800.0
+      ],
+      "center": [
+        2158.855,
+        1698.432
+      ]
+    },
+    {
+      "id": "atg",
+      "name": "Antigua and Barbuda",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Antigua and Barbuda",
+      "iso2": "AG",
+      "sourceUnits": [
+        "ACA"
+      ],
+      "bbox": [
+        1176.517,
+        722.723,
+        1183.324,
+        730.68
+      ],
+      "center": [
+        1181.932,
+        729.236
+      ]
+    },
+    {
+      "id": "it-23",
+      "name": "Aosta Valley",
+      "kind": "territory",
+      "aliases": [
+        "Aoste"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Italy",
+      "iso2": "IT",
+      "sourceUnits": [
+        "IT-AO"
+      ],
+      "parentId": "ita",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1867.82,
+        440.159,
+        1879.195,
+        445.337
+      ],
+      "center": [
+        1873.71,
+        442.698
+      ]
+    },
+    {
+      "id": "es-ar",
+      "name": "Aragon",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-HU",
+        "ES-Z",
+        "ES-TE"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1778.266,
+        470.813,
+        1807.695,
+        501.478
+      ],
+      "center": [
+        1789.357,
+        483.78
+      ]
+    },
+    {
+      "id": "arg",
+      "name": "Argentina",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Argentina",
+      "iso2": "AR",
+      "sourceUnits": [
+        "ARG"
+      ],
+      "bbox": [
+        1064.273,
+        1117.869,
+        1263.384,
+        1450.52
+      ],
+      "center": [
+        1158.267,
+        1235.012
+      ]
+    },
+    {
+      "id": "arm",
+      "name": "Armenia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Armenia",
+      "iso2": "AM",
+      "sourceUnits": [
+        "ARM"
+      ],
+      "bbox": [
+        2234.363,
+        487.095,
+        2266.026,
+        511.363
+      ],
+      "center": [
+        2248.006,
+        495.409
+      ]
+    },
+    {
+      "id": "abw",
+      "name": "Aruba",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Netherlands",
+      "iso2": "AW",
+      "sourceUnits": [
+        "ABW"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1099.376,
+        773.679,
+        1101.232,
+        775.823
+      ],
+      "center": [
+        1100.272,
+        774.826
+      ]
+    },
+    {
+      "id": "atc",
+      "name": "Ashmore and Cartier Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "Australia",
+      "iso2": "AU",
+      "sourceUnits": [
+        "ATC"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        3035.75,
+        1024.266,
+        3035.977,
+        1024.386
+      ],
+      "center": [
+        3035.864,
+        1024.326
+      ]
+    },
+    {
+      "id": "es-as",
+      "name": "Asturias",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-O"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1728.284,
+        463.37,
+        1754.867,
+        471.072
+      ],
+      "center": [
+        1740.114,
+        467.031
+      ]
+    },
+    {
+      "id": "aus",
+      "name": "Australia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Australia",
+      "iso2": "AU",
+      "sourceUnits": [
+        "AUS"
+      ],
+      "bbox": [
+        2929.194,
+        992.402,
+        3391.065,
+        1447.504
+      ],
+      "center": [
+        3140.497,
+        1141.295
+      ]
+    },
+    {
+      "id": "au-act",
+      "name": "Australian Capital Territory",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Australia",
+      "iso2": "AU",
+      "sourceUnits": [
+        "AU-ACT"
+      ],
+      "parentId": "aus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        3287.695,
+        1251.395,
+        3294.044,
+        1259.196
+      ],
+      "center": [
+        3290.069,
+        1254.976
+      ]
+    },
+    {
+      "id": "aut",
+      "name": "Austria",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Austria",
+      "iso2": "AT",
+      "sourceUnits": [
+        "AUT"
+      ],
+      "bbox": [
+        1895.212,
+        409.902,
+        1971.483,
+        436.214
+      ],
+      "center": [
+        1941.305,
+        424.811
+      ]
+    },
+    {
+      "id": "pk-jk",
+      "name": "Azad Kashmir",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Pakistan",
+      "iso2": "PK",
+      "sourceUnits": [
+        "PK-JK"
+      ],
+      "parentId": "pak",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2534.002,
+        548.763,
+        2552.553,
+        571.769
+      ],
+      "center": [
+        2540.242,
+        558.782
+      ]
+    },
+    {
+      "id": "aze",
+      "name": "Azerbaijan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Azerbaijan",
+      "iso2": "AZ",
+      "sourceUnits": [
+        "AZE"
+      ],
+      "bbox": [
+        2247.746,
+        481.096,
+        2306.257,
+        516.074
+      ],
+      "center": [
+        2272.11,
+        495.976
+      ]
+    },
+    {
+      "id": "paz",
+      "name": "Azores",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "Portugal",
+      "iso2": "PT",
+      "sourceUnits": [
+        "PAZ"
+      ],
+      "parentId": "prt",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1487.151,
+        502.717,
+        1549.878,
+        530.657
+      ],
+      "center": [
+        1545.14,
+        521.996
+      ]
+    },
+    {
+      "id": "bhs",
+      "name": "Bahamas",
+      "kind": "country",
+      "aliases": [
+        "The Bahamas"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "The Bahamas",
+      "iso2": "BS",
+      "sourceUnits": [
+        "BHS"
+      ],
+      "bbox": [
+        1004.056,
+        630.716,
+        1072.538,
+        690.876
+      ],
+      "center": [
+        1028.533,
+        635.982
+      ]
+    },
+    {
+      "id": "bhr",
+      "name": "Bahrain",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Bahrain",
+      "iso2": "BH",
+      "sourceUnits": [
+        "BHR"
+      ],
+      "bbox": [
+        2303.805,
+        637.126,
+        2308.199,
+        644.201
+      ],
+      "center": [
+        2305.548,
+        639.44
+      ]
+    },
+    {
+      "id": "bjn",
+      "name": "Bajo Nuevo Bank",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "North America",
+      "sovereign": "Bajo Nuevo Bank (Petrel Is.)",
+      "iso2": "-99",
+      "sourceUnits": [
+        "BJN"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1000.107,
+        742.038,
+        1000.136,
+        742.058
+      ],
+      "center": [
+        1001.542,
+        742.084
+      ]
+    },
+    {
+      "id": "fqi",
+      "name": "Baker Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "FQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        35.142,
+        897.741,
+        35.408,
+        898.097
+      ],
+      "center": [
+        35.207,
+        898.057
+      ]
+    },
+    {
+      "id": "es-ib",
+      "name": "Balearic Islands",
+      "kind": "territory",
+      "aliases": [
+        "Baleares"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-PM"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1812.122,
+        499.206,
+        1843.371,
+        513.614
+      ],
+      "center": [
+        1829.607,
+        503.8
+      ]
+    },
+    {
+      "id": "bgd",
+      "name": "Bangladesh",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Bangladesh",
+      "iso2": "BD",
+      "sourceUnits": [
+        "BGD"
+      ],
+      "bbox": [
+        2680.218,
+        633.765,
+        2726.429,
+        692.613
+      ],
+      "center": [
+        2696.85,
+        657.85
+      ]
+    },
+    {
+      "id": "ph-bangsamoro",
+      "name": "Bangsamoro",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Philippines",
+      "iso2": "PH",
+      "sourceUnits": [
+        "PH-LAS",
+        "PH-MAG",
+        "PH-NCO",
+        "PH-TAW",
+        "PH-BAS"
+      ],
+      "parentId": "phl",
+      "subtype": "Autonomous region",
+      "statusNote": "Approximate footprint from older ARMM province boundaries, with Sulu excluded. Current Special Geographic Area and the Isabela City exclusion are not resolved at this source scale.",
+      "bbox": [
+        2994.354,
+        817.738,
+        3049.086,
+        853.443
+      ],
+      "center": [
+        3043.805,
+        829.661
+      ]
+    },
+    {
+      "id": "brb",
+      "name": "Barbados",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Barbados",
+      "iso2": "BB",
+      "sourceUnits": [
+        "BRB"
+      ],
+      "bbox": [
+        1203.458,
+        766.554,
+        1205.731,
+        769.488
+      ],
+      "center": [
+        1204.31,
+        768.363
+      ]
+    },
+    {
+      "id": "acb",
+      "name": "Barbuda",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Antigua and Barbuda",
+      "iso2": "AG",
+      "sourceUnits": [
+        "ACB"
+      ],
+      "parentId": "atg",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1181.262,
+        722.723,
+        1182.722,
+        724.544
+      ],
+      "center": [
+        1182.047,
+        723.681
+      ]
+    },
+    {
+      "id": "ru-ba",
+      "name": "Bashkortostan",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-BA"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2331.405,
+        334.616,
+        2399.746,
+        384.279
+      ],
+      "center": [
+        2365.136,
+        357.266
+      ]
+    },
+    {
+      "id": "es-pv",
+      "name": "Basque Country",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-SS",
+        "ES-BI",
+        "ES-VI"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1765.55,
+        465.475,
+        1782.503,
+        475.033
+      ],
+      "center": [
+        1772.841,
+        471.662
+      ]
+    },
+    {
+      "id": "blr",
+      "name": "Belarus",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Belarus",
+      "iso2": "BY",
+      "sourceUnits": [
+        "BLR"
+      ],
+      "bbox": [
+        2031.656,
+        338.432,
+        2127.195,
+        387.648
+      ],
+      "center": [
+        2084.177,
+        361.781
+      ]
+    },
+    {
+      "id": "bel",
+      "name": "Belgium",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Belgium",
+      "iso2": "BE",
+      "sourceUnits": [
+        "BFR"
+      ],
+      "bbox": [
+        1825.218,
+        385.038,
+        1863.745,
+        405.048
+      ],
+      "center": [
+        1847.684,
+        388.919
+      ]
+    },
+    {
+      "id": "blz",
+      "name": "Belize",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Belize",
+      "iso2": "BZ",
+      "sourceUnits": [
+        "BLZ"
+      ],
+      "bbox": [
+        907.635,
+        715.092,
+        922.169,
+        741.203
+      ],
+      "center": [
+        912.87,
+        727.979
+      ]
+    },
+    {
+      "id": "ben",
+      "name": "Benin",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Benin",
+      "iso2": "BJ",
+      "sourceUnits": [
+        "BEN"
+      ],
+      "bbox": [
+        1807.599,
+        776.008,
+        1838.374,
+        837.861
+      ],
+      "center": [
+        1823.52,
+        796.752
+      ]
+    },
+    {
+      "id": "bmu",
+      "name": "Bermuda",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United Kingdom",
+      "iso2": "BM",
+      "sourceUnits": [
+        "BMU"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1151.14,
+        576.113,
+        1153.524,
+        577.519
+      ],
+      "center": [
+        1152.364,
+        577.034
+      ]
+    },
+    {
+      "id": "btn",
+      "name": "Bhutan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Bhutan",
+      "iso2": "BT",
+      "sourceUnits": [
+        "BTN"
+      ],
+      "bbox": [
+        2687.301,
+        616.416,
+        2720.888,
+        633.039
+      ],
+      "center": [
+        2700.403,
+        624.633
+      ]
+    },
+    {
+      "id": "brt",
+      "name": "Bir Tawil",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Africa",
+      "sovereign": "Bir Tawil",
+      "iso2": "-99",
+      "sourceUnits": [
+        "BRT"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2131.811,
+        680.045,
+        2140.842,
+        682.89
+      ],
+      "center": [
+        2136.734,
+        681.396
+      ]
+    },
+    {
+      "id": "bol",
+      "name": "Bolivia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Bolivia",
+      "iso2": "BO",
+      "sourceUnits": [
+        "BOL"
+      ],
+      "bbox": [
+        1103.335,
+        996.798,
+        1225.343,
+        1128.973
+      ],
+      "center": [
+        1154.066,
+        1066.66
+      ]
+    },
+    {
+      "id": "bih",
+      "name": "Bosnia and Herzegovina",
+      "kind": "country",
+      "aliases": [
+        "Bosnia"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Bosnia and Herzegovina",
+      "iso2": "BA",
+      "sourceUnits": [
+        "BHF"
+      ],
+      "bbox": [
+        1957.161,
+        447.155,
+        1996.189,
+        474.408
+      ],
+      "center": [
+        1976.703,
+        462.079
+      ]
+    },
+    {
+      "id": "bwa",
+      "name": "Botswana",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Botswana",
+      "iso2": "BW",
+      "sourceUnits": [
+        "BWA"
+      ],
+      "bbox": [
+        1999.783,
+        1077.818,
+        2093.501,
+        1168.918
+      ],
+      "center": [
+        2041.792,
+        1121.026
+      ]
+    },
+    {
+      "id": "pnb",
+      "name": "Bougainville",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Papua New Guinea",
+      "iso2": "PG",
+      "sourceUnits": [
+        "PNB"
+      ],
+      "parentId": "png",
+      "subtype": "Autonomous region",
+      "bbox": [
+        3341.345,
+        932.063,
+        3359.675,
+        968.766
+      ],
+      "center": [
+        3353.136,
+        962.28
+      ]
+    },
+    {
+      "id": "bvt",
+      "name": "Bouvet Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Antarctica",
+      "sovereign": "Norway",
+      "iso2": "BV",
+      "sourceUnits": [
+        "BVT"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1833.456,
+        1443.801,
+        1834.867,
+        1444.625
+      ],
+      "center": [
+        1834.145,
+        1444.153
+      ]
+    },
+    {
+      "id": "bra",
+      "name": "Brazil",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Brazil",
+      "iso2": "BR",
+      "sourceUnits": [
+        "BRA"
+      ],
+      "bbox": [
+        1059.815,
+        847.328,
+        1511.229,
+        1237.423
+      ],
+      "center": [
+        1304.406,
+        1020.987
+      ]
+    },
+    {
+      "id": "bri",
+      "name": "Brazilian Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "South America",
+      "sovereign": "Brazilian Island",
+      "iso2": "BR",
+      "sourceUnits": [
+        "BRI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1223.575,
+        1201.83,
+        1223.972,
+        1201.931
+      ],
+      "center": [
+        1223.77,
+        1201.876
+      ]
+    },
+    {
+      "id": "iot",
+      "name": "British Indian Ocean Territory",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "United Kingdom",
+      "iso2": "IO",
+      "sourceUnits": [
+        "IOT"
+      ],
+      "subtype": "Dependency or special territory",
+      "statusNote": "Natural Earth 5.1.1 name and administration snapshot; the Chagos sovereignty agreement may change current legal status.",
+      "bbox": [
+        2512.61,
+        952.27,
+        2524.946,
+        974.322
+      ],
+      "center": [
+        2513.483,
+        961.908
+      ]
+    },
+    {
+      "id": "vgb",
+      "name": "British Virgin Islands",
+      "kind": "territory",
+      "aliases": [
+        "BVI"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United Kingdom",
+      "iso2": "VG",
+      "sourceUnits": [
+        "VGB"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1152.26,
+        712.538,
+        1157.293,
+        716.653
+      ],
+      "center": [
+        1153.634,
+        715.734
+      ]
+    },
+    {
+      "id": "brn",
+      "name": "Brunei",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Brunei",
+      "iso2": "BN",
+      "sourceUnits": [
+        "BRN"
+      ],
+      "bbox": [
+        2939.988,
+        849.428,
+        2953.607,
+        859.833
+      ],
+      "center": [
+        2945.519,
+        855.517
+      ]
+    },
+    {
+      "id": "bcr",
+      "name": "Brussels-Capital Region",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Belgium",
+      "iso2": "BE",
+      "sourceUnits": [
+        "BCR"
+      ],
+      "parentId": "bel",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1842.456,
+        390.852,
+        1844.797,
+        392.354
+      ],
+      "center": [
+        1843.704,
+        391.633
+      ]
+    },
+    {
+      "id": "bhb",
+      "name": "Brčko District",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Bosnia and Herzegovina",
+      "iso2": "BA",
+      "sourceUnits": [
+        "BHB"
+      ],
+      "parentId": "bih",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1987.48,
+        451.078,
+        1989.754,
+        452.552
+      ],
+      "center": [
+        1988.446,
+        451.822
+      ]
+    },
+    {
+      "id": "bgr",
+      "name": "Bulgaria",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Bulgaria",
+      "iso2": "BG",
+      "sourceUnits": [
+        "BGR"
+      ],
+      "bbox": [
+        2023.45,
+        457.716,
+        2086.035,
+        487.619
+      ],
+      "center": [
+        2051.571,
+        474.912
+      ]
+    },
+    {
+      "id": "bfa",
+      "name": "Burkina Faso",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Burkina Faso",
+      "iso2": "BF",
+      "sourceUnits": [
+        "BFA"
+      ],
+      "bbox": [
+        1744.774,
+        749.201,
+        1823.902,
+        806.081
+      ],
+      "center": [
+        1786.361,
+        773.27
+      ]
+    },
+    {
+      "id": "bdi",
+      "name": "Burundi",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Burundi",
+      "iso2": "BI",
+      "sourceUnits": [
+        "BDI"
+      ],
+      "bbox": [
+        2089.869,
+        923.031,
+        2108.34,
+        944.633
+      ],
+      "center": [
+        2099.171,
+        933.328
+      ]
+    },
+    {
+      "id": "ru-bu",
+      "name": "Buryatia",
+      "kind": "territory",
+      "aliases": [
+        "Buryat"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-BU"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2786.292,
+        327.565,
+        2969.275,
+        400.326
+      ],
+      "center": [
+        2894.781,
+        364.536
+      ]
+    },
+    {
+      "id": "cpv",
+      "name": "Cabo Verde",
+      "kind": "country",
+      "aliases": [
+        "Cape Verde"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Cabo Verde",
+      "iso2": "CV",
+      "sourceUnits": [
+        "CPV"
+      ],
+      "bbox": [
+        1546.396,
+        728.034,
+        1573.334,
+        751.961
+      ],
+      "center": [
+        1563.606,
+        749.252
+      ]
+    },
+    {
+      "id": "khm",
+      "name": "Cambodia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Cambodia",
+      "iso2": "KH",
+      "sourceUnits": [
+        "KHM"
+      ],
+      "bbox": [
+        2823.134,
+        752.954,
+        2876.105,
+        795.842
+      ],
+      "center": [
+        2845.049,
+        773.524
+      ]
+    },
+    {
+      "id": "cmr",
+      "name": "Cameroon",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Cameroon",
+      "iso2": "CM",
+      "sourceUnits": [
+        "CMR"
+      ],
+      "bbox": [
+        1885.051,
+        769.189,
+        1962.077,
+        883.454
+      ],
+      "center": [
+        1924.735,
+        854.15
+      ]
+    },
+    {
+      "id": "can",
+      "name": "Canada",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Canada",
+      "iso2": "CA",
+      "sourceUnits": [
+        "CAN"
+      ],
+      "bbox": [
+        389.944,
+        68.835,
+        1273.834,
+        483.309
+      ],
+      "center": [
+        780.893,
+        296.757
+      ]
+    },
+    {
+      "id": "es-cn",
+      "name": "Canary Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-TF",
+        "ES-GC"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1618.328,
+        607.105,
+        1665.822,
+        623.578
+      ],
+      "center": [
+        1634.415,
+        617.131
+      ]
+    },
+    {
+      "id": "es-cb",
+      "name": "Cantabria",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-S"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1751.64,
+        464.817,
+        1768.505,
+        472.375
+      ],
+      "center": [
+        1759.646,
+        468.008
+      ]
+    },
+    {
+      "id": "nly",
+      "name": "Caribbean Netherlands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Netherlands",
+      "iso2": "BQ",
+      "sourceUnits": [
+        "NLY"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1115.826,
+        723.531,
+        1170.549,
+        779.78
+      ],
+      "center": [
+        1168.666,
+        724.562
+      ]
+    },
+    {
+      "id": "es-cl",
+      "name": "Castile and León",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-SA",
+        "ES-ZA",
+        "ES-LE",
+        "ES-SO",
+        "ES-BU",
+        "ES-AV",
+        "ES-P",
+        "ES-SG",
+        "ES-VA"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1729.29,
+        467.615,
+        1782.145,
+        499.112
+      ],
+      "center": [
+        1741.6,
+        473.783
+      ]
+    },
+    {
+      "id": "es-cm",
+      "name": "Castilla-La Mancha",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-AB",
+        "ES-CU",
+        "ES-TO",
+        "ES-CR",
+        "ES-GU"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1746.09,
+        486.779,
+        1790.965,
+        519.764
+      ],
+      "center": [
+        1761.825,
+        510.79
+      ]
+    },
+    {
+      "id": "es-ct",
+      "name": "Catalonia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-L",
+        "ES-GI",
+        "ES-B",
+        "ES-T"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1801.675,
+        471.534,
+        1833.177,
+        494.738
+      ],
+      "center": [
+        1810.466,
+        479.617
+      ]
+    },
+    {
+      "id": "cym",
+      "name": "Cayman Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United Kingdom",
+      "iso2": "KY",
+      "sourceUnits": [
+        "CYM"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        985.835,
+        702.424,
+        1002.734,
+        707.361
+      ],
+      "center": [
+        987.595,
+        706.801
+      ]
+    },
+    {
+      "id": "caf",
+      "name": "Central African Republic",
+      "kind": "country",
+      "aliases": [
+        "CAR"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Central African Republic",
+      "iso2": "CF",
+      "sourceUnits": [
+        "CAF"
+      ],
+      "bbox": [
+        1943.873,
+        789.992,
+        2074.413,
+        877.635
+      ],
+      "center": [
+        2009.069,
+        830.103
+      ]
+    },
+    {
+      "id": "es-ce",
+      "name": "Ceuta",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-CE"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1746.011,
+        540.738,
+        1747.169,
+        541.526
+      ],
+      "center": [
+        1746.526,
+        541.075
+      ]
+    },
+    {
+      "id": "tcd",
+      "name": "Chad",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Chad",
+      "iso2": "TD",
+      "sourceUnits": [
+        "TCD"
+      ],
+      "bbox": [
+        1934.492,
+        665.553,
+        2039.844,
+        825.444
+      ],
+      "center": [
+        1986.45,
+        748.57
+      ]
+    },
+    {
+      "id": "ru-ce",
+      "name": "Chechen Republic",
+      "kind": "territory",
+      "aliases": [
+        "Chechnya"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-CE"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2248.385,
+        459.848,
+        2266.755,
+        475.294
+      ],
+      "center": [
+        2257.423,
+        466.977
+      ]
+    },
+    {
+      "id": "chl",
+      "name": "Chile",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Chile",
+      "iso2": "CL",
+      "sourceUnits": [
+        "CHL"
+      ],
+      "bbox": [
+        705.463,
+        1075.066,
+        1135.792,
+        1459.185
+      ],
+      "center": [
+        1076.811,
+        1281.518
+      ]
+    },
+    {
+      "id": "chn",
+      "name": "China",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "CN",
+      "sourceUnits": [
+        "CHN"
+      ],
+      "bbox": [
+        2536.023,
+        364.306,
+        3147.726,
+        718.307
+      ],
+      "center": [
+        2863.373,
+        575.018
+      ]
+    },
+    {
+      "id": "cxr",
+      "name": "Christmas Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Australia",
+      "iso2": "CX",
+      "sourceUnits": [
+        "CXR"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2855.818,
+        1004.308,
+        2857.147,
+        1005.66
+      ],
+      "center": [
+        2856.726,
+        1004.908
+      ]
+    },
+    {
+      "id": "ru-chu",
+      "name": "Chukotka Autonomous Okrug",
+      "kind": "territory",
+      "aliases": [
+        "Chukchi Autonomous Okrug"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-CHU"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        0.0,
+        184.0,
+        3600.0,
+        281.854
+      ],
+      "center": [
+        3506.563,
+        235.593
+      ]
+    },
+    {
+      "id": "ru-cu",
+      "name": "Chuvashia",
+      "kind": "territory",
+      "aliases": [
+        "Chuvash"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-CU"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2259.201,
+        336.648,
+        2284.124,
+        353.697
+      ],
+      "center": [
+        2270.88,
+        345.044
+      ]
+    },
+    {
+      "id": "clp",
+      "name": "Clipperton Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "France",
+      "iso2": "FR",
+      "sourceUnits": [
+        "CLP"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        707.658,
+        796.89,
+        707.896,
+        797.184
+      ],
+      "center": [
+        707.795,
+        797.027
+      ]
+    },
+    {
+      "id": "cck",
+      "name": "Cocos (Keeling) Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Australia",
+      "iso2": "CC",
+      "sourceUnits": [
+        "CCK"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2768.215,
+        1021.266,
+        2769.211,
+        1022.0
+      ],
+      "center": [
+        2768.301,
+        1021.596
+      ]
+    },
+    {
+      "id": "col",
+      "name": "Colombia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Colombia",
+      "iso2": "CO",
+      "sourceUnits": [
+        "COL"
+      ],
+      "bbox": [
+        982.763,
+        764.216,
+        1131.249,
+        942.365
+      ],
+      "center": [
+        1068.257,
+        866.269
+      ]
+    },
+    {
+      "id": "es-md",
+      "name": "Community of Madrid",
+      "kind": "territory",
+      "aliases": [
+        "Madrid"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-M"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1754.281,
+        488.382,
+        1769.378,
+        501.065
+      ],
+      "center": [
+        1762.841,
+        495.053
+      ]
+    },
+    {
+      "id": "com",
+      "name": "Comoros",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Comoros",
+      "iso2": "KM",
+      "sourceUnits": [
+        "COM"
+      ],
+      "bbox": [
+        2232.132,
+        1013.613,
+        2245.291,
+        1023.803
+      ],
+      "center": [
+        2233.181,
+        1017.277
+      ]
+    },
+    {
+      "id": "cok",
+      "name": "Cook Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "New Zealand",
+      "iso2": "CK",
+      "sourceUnits": [
+        "COK"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        141.755,
+        989.467,
+        226.872,
+        1119.389
+      ],
+      "center": [
+        202.143,
+        1112.16
+      ]
+    },
+    {
+      "id": "csi",
+      "name": "Coral Sea Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "Australia",
+      "iso2": "AU",
+      "sourceUnits": [
+        "CSI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        3343.885,
+        1110.287,
+        3343.913,
+        1110.3
+      ],
+      "center": [
+        3343.906,
+        1110.293
+      ]
+    },
+    {
+      "id": "fr-corsica",
+      "name": "Corsica",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "France",
+      "iso2": "FR",
+      "sourceUnits": [
+        "FR-2B",
+        "FR-2A"
+      ],
+      "parentId": "fra",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1885.453,
+        469.826,
+        1895.596,
+        486.341
+      ],
+      "center": [
+        1892.035,
+        476.029
+      ]
+    },
+    {
+      "id": "cri",
+      "name": "Costa Rica",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Costa Rica",
+      "iso2": "CR",
+      "sourceUnits": [
+        "CRI"
+      ],
+      "bbox": [
+        928.823,
+        787.901,
+        974.372,
+        844.849
+      ],
+      "center": [
+        959.221,
+        799.349
+      ]
+    },
+    {
+      "id": "ua-crimea",
+      "name": "Crimea",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "UA-43"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "statusNote": "Disputed autonomous republic. Natural Earth displays de facto administration; international recognition is not implied.",
+      "bbox": [
+        2124.816,
+        437.819,
+        2166.384,
+        456.19
+      ],
+      "center": [
+        2143.659,
+        446.746
+      ]
+    },
+    {
+      "id": "hrv",
+      "name": "Croatia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Croatia",
+      "iso2": "HR",
+      "sourceUnits": [
+        "HRV"
+      ],
+      "bbox": [
+        1935.015,
+        434.53,
+        1994.078,
+        475.837
+      ],
+      "center": [
+        1963.724,
+        441.942
+      ]
+    },
+    {
+      "id": "cub",
+      "name": "Cuba",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Cuba",
+      "iso2": "CU",
+      "sourceUnits": [
+        "CUB",
+        "USG"
+      ],
+      "bbox": [
+        950.504,
+        667.344,
+        1058.671,
+        701.722
+      ],
+      "center": [
+        1020.241,
+        686.66
+      ]
+    },
+    {
+      "id": "cuw",
+      "name": "Curaçao",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Netherlands",
+      "iso2": "CW",
+      "sourceUnits": [
+        "CUW"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1108.283,
+        776.085,
+        1112.603,
+        779.587
+      ],
+      "center": [
+        1110.794,
+        778.55
+      ]
+    },
+    {
+      "id": "cyp",
+      "name": "Cyprus",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Cyprus",
+      "iso2": "CY",
+      "sourceUnits": [
+        "CYP",
+        "CNM"
+      ],
+      "bbox": [
+        2122.717,
+        548.006,
+        2140.991,
+        553.75
+      ],
+      "center": [
+        2130.842,
+        550.867
+      ]
+    },
+    {
+      "id": "cze",
+      "name": "Czechia",
+      "kind": "country",
+      "aliases": [
+        "Czech Republic"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Czechia",
+      "iso2": "CZ",
+      "sourceUnits": [
+        "CZE"
+      ],
+      "bbox": [
+        1920.761,
+        389.6,
+        1988.374,
+        414.421
+      ],
+      "center": [
+        1953.776,
+        401.176
+      ]
+    },
+    {
+      "id": "civ",
+      "name": "Côte d’Ivoire",
+      "kind": "country",
+      "aliases": [
+        "Ivory Coast",
+        "Cote d Ivoire",
+        "Cote dIvoire"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Ivory Coast",
+      "iso2": "CI",
+      "sourceUnits": [
+        "CIV"
+      ],
+      "bbox": [
+        1713.813,
+        792.735,
+        1774.937,
+        856.559
+      ],
+      "center": [
+        1744.314,
+        825.086
+      ]
+    },
+    {
+      "id": "cod",
+      "name": "Democratic Republic of the Congo",
+      "kind": "country",
+      "aliases": [
+        "DR Congo",
+        "DRC",
+        "Congo Kinshasa",
+        "Democratic Republic of Congo"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Democratic Republic of the Congo",
+      "iso2": "CD",
+      "sourceUnits": [
+        "COD"
+      ],
+      "bbox": [
+        1922.105,
+        846.247,
+        2112.804,
+        1034.584
+      ],
+      "center": [
+        2034.588,
+        918.582
+      ]
+    },
+    {
+      "id": "dnk",
+      "name": "Denmark",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Denmark",
+      "iso2": "DK",
+      "sourceUnits": [
+        "DNK"
+      ],
+      "bbox": [
+        1880.94,
+        322.488,
+        1951.514,
+        354.314
+      ],
+      "center": [
+        1890.182,
+        340.33
+      ]
+    },
+    {
+      "id": "esb",
+      "name": "Dhekelia Cantonment",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Asia",
+      "sovereign": "United Kingdom",
+      "iso2": "-99",
+      "sourceUnits": [
+        "ESB"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2136.741,
+        548.81,
+        2139.215,
+        550.621
+      ],
+      "center": [
+        2137.906,
+        549.89
+      ]
+    },
+    {
+      "id": "dji",
+      "name": "Djibouti",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Djibouti",
+      "iso2": "DJ",
+      "sourceUnits": [
+        "DJI"
+      ],
+      "bbox": [
+        2217.491,
+        772.921,
+        2234.187,
+        790.702
+      ],
+      "center": [
+        2224.988,
+        780.237
+      ]
+    },
+    {
+      "id": "dma",
+      "name": "Dominica",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Dominica",
+      "iso2": "DM",
+      "sourceUnits": [
+        "DMA"
+      ],
+      "bbox": [
+        1185.111,
+        743.661,
+        1187.507,
+        747.982
+      ],
+      "center": [
+        1186.55,
+        745.412
+      ]
+    },
+    {
+      "id": "dom",
+      "name": "Dominican Republic",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Dominican Republic",
+      "iso2": "DO",
+      "sourceUnits": [
+        "DOM"
+      ],
+      "bbox": [
+        1079.902,
+        700.623,
+        1116.714,
+        724.544
+      ],
+      "center": [
+        1093.46,
+        708.959
+      ]
+    },
+    {
+      "id": "ecu",
+      "name": "Ecuador",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Ecuador",
+      "iso2": "EC",
+      "sourceUnits": [
+        "ECU"
+      ],
+      "bbox": [
+        879.884,
+        883.356,
+        1047.727,
+        950.114
+      ],
+      "center": [
+        1018.116,
+        912.591
+      ]
+    },
+    {
+      "id": "egy",
+      "name": "Egypt",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Egypt",
+      "iso2": "EG",
+      "sourceUnits": [
+        "EGY"
+      ],
+      "bbox": [
+        2046.883,
+        583.435,
+        2168.992,
+        680.056
+      ],
+      "center": [
+        2094.458,
+        638.138
+      ]
+    },
+    {
+      "id": "slv",
+      "name": "El Salvador",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "El Salvador",
+      "iso2": "SV",
+      "sourceUnits": [
+        "SLV"
+      ],
+      "bbox": [
+        898.852,
+        755.546,
+        923.068,
+        768.414
+      ],
+      "center": [
+        911.099,
+        763.146
+      ]
+    },
+    {
+      "id": "pa-em",
+      "name": "Emberá-Wounaan",
+      "kind": "territory",
+      "aliases": [
+        "Emberá"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Panama",
+      "iso2": "PA",
+      "sourceUnits": [
+        "PA-EM"
+      ],
+      "parentId": "pan",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1016.655,
+        812.234,
+        1027.306,
+        824.101
+      ],
+      "center": [
+        1023.877,
+        815.794
+      ]
+    },
+    {
+      "id": "gnq",
+      "name": "Equatorial Guinea",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Equatorial Guinea",
+      "iso2": "GQ",
+      "sourceUnits": [
+        "GNQ"
+      ],
+      "bbox": [
+        1856.12,
+        862.276,
+        1913.363,
+        914.757
+      ],
+      "center": [
+        1889.902,
+        876.67
+      ]
+    },
+    {
+      "id": "eri",
+      "name": "Eritrea",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Eritrea",
+      "iso2": "ER",
+      "sourceUnits": [
+        "ERI"
+      ],
+      "bbox": [
+        2164.236,
+        719.952,
+        2231.239,
+        776.4
+      ],
+      "center": [
+        2182.856,
+        742.126
+      ]
+    },
+    {
+      "id": "est",
+      "name": "Estonia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Estonia",
+      "iso2": "EE",
+      "sourceUnits": [
+        "EST"
+      ],
+      "bbox": [
+        2018.324,
+        303.291,
+        2081.865,
+        324.842
+      ],
+      "center": [
+        2058.671,
+        312.751
+      ]
+    },
+    {
+      "id": "swz",
+      "name": "Eswatini",
+      "kind": "country",
+      "aliases": [
+        "Swaziland",
+        "eSwatini"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "eSwatini",
+      "iso2": "SZ",
+      "sourceUnits": [
+        "SWZ"
+      ],
+      "bbox": [
+        2107.829,
+        1157.36,
+        2121.174,
+        1173.163
+      ],
+      "center": [
+        2114.673,
+        1165.337
+      ]
+    },
+    {
+      "id": "eth",
+      "name": "Ethiopia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Ethiopia",
+      "iso2": "ET",
+      "sourceUnits": [
+        "ETH"
+      ],
+      "bbox": [
+        2129.898,
+        751.205,
+        2279.792,
+        865.967
+      ],
+      "center": [
+        2190.886,
+        819.672
+      ]
+    },
+    {
+      "id": "es-ex",
+      "name": "Extremadura",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-BA",
+        "ES-CC"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1724.427,
+        495.197,
+        1753.416,
+        520.61
+      ],
+      "center": [
+        1738.479,
+        512.915
+      ]
+    },
+    {
+      "id": "flk",
+      "name": "Falkland Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "United Kingdom",
+      "iso2": "FK",
+      "sourceUnits": [
+        "FLK"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1186.818,
+        1410.278,
+        1222.657,
+        1424.065
+      ],
+      "center": [
+        1212.614,
+        1416.089
+      ]
+    },
+    {
+      "id": "fro",
+      "name": "Faroe Islands",
+      "kind": "territory",
+      "aliases": [
+        "Faeroe Islands"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Denmark",
+      "iso2": "FO",
+      "sourceUnits": [
+        "FRO"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1723.558,
+        276.011,
+        1737.242,
+        286.059
+      ],
+      "center": [
+        1729.416,
+        278.144
+      ]
+    },
+    {
+      "id": "fsm",
+      "name": "Federated States of Micronesia",
+      "kind": "country",
+      "aliases": [
+        "Micronesia",
+        "FSM"
+      ],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Federated States of Micronesia",
+      "iso2": "FM",
+      "sourceUnits": [
+        "FSM"
+      ],
+      "bbox": [
+        3180.638,
+        802.244,
+        3430.466,
+        890.818
+      ],
+      "center": [
+        3382.34,
+        831.124
+      ]
+    },
+    {
+      "id": "bih-federation",
+      "name": "Federation of Bosnia and Herzegovina",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Bosnia and Herzegovina",
+      "iso2": "BA",
+      "sourceUnits": [
+        "BHF"
+      ],
+      "parentId": "bih",
+      "subtype": "Federated region",
+      "bbox": [
+        1957.161,
+        447.815,
+        1990.571,
+        474.256
+      ],
+      "center": [
+        1975.057,
+        459.198
+      ]
+    },
+    {
+      "id": "fji",
+      "name": "Fiji",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Fiji",
+      "iso2": "FJ",
+      "sourceUnits": [
+        "FJI"
+      ],
+      "bbox": [
+        0.0,
+        1024.753,
+        3600.0,
+        1117.111
+      ],
+      "center": [
+        3579.754,
+        1078.261
+      ]
+    },
+    {
+      "id": "fin",
+      "name": "Finland",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Finland",
+      "iso2": "FI",
+      "sourceUnits": [
+        "FIN"
+      ],
+      "bbox": [
+        1995.132,
+        199.247,
+        2115.695,
+        301.888
+      ],
+      "center": [
+        2072.764,
+        267.476
+      ]
+    },
+    {
+      "id": "bel-flanders",
+      "name": "Flanders",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Belgium",
+      "iso2": "BE",
+      "sourceUnits": [
+        "BFR"
+      ],
+      "parentId": "bel",
+      "subtype": "Federated region",
+      "bbox": [
+        1825.218,
+        385.038,
+        1859.102,
+        393.113
+      ],
+      "center": [
+        1842.141,
+        389.659
+      ]
+    },
+    {
+      "id": "fra",
+      "name": "France",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "France",
+      "iso2": "FR",
+      "sourceUnits": [
+        "FXX"
+      ],
+      "bbox": [
+        1748.672,
+        389.125,
+        1895.596,
+        486.341
+      ],
+      "center": [
+        1825.523,
+        433.039
+      ]
+    },
+    {
+      "id": "guf",
+      "name": "French Guiana",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "France",
+      "iso2": "GF",
+      "sourceUnits": [
+        "GUF"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1253.847,
+        842.552,
+        1283.51,
+        878.893
+      ],
+      "center": [
+        1269.317,
+        860.008
+      ]
+    },
+    {
+      "id": "pyf",
+      "name": "French Polynesia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "France",
+      "iso2": "PF",
+      "sourceUnits": [
+        "PYF"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        254.63,
+        979.501,
+        450.57,
+        1176.412
+      ],
+      "center": [
+        305.384,
+        1076.281
+      ]
+    },
+    {
+      "id": "atf",
+      "name": "French Southern and Antarctic Lands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "France",
+      "iso2": "TF",
+      "sourceUnits": [
+        "ATF"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2197.283,
+        1015.506,
+        2575.852,
+        1397.216
+      ],
+      "center": [
+        2491.221,
+        1393.037
+      ]
+    },
+    {
+      "id": "it-36",
+      "name": "Friuli Venezia Giulia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Italy",
+      "iso2": "IT",
+      "sourceUnits": [
+        "IT-UD",
+        "IT-GO",
+        "IT-TS",
+        "IT-PN"
+      ],
+      "parentId": "ita",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1923.359,
+        433.59,
+        1938.947,
+        444.188
+      ],
+      "center": [
+        1931.573,
+        437.736
+      ]
+    },
+    {
+      "id": "gab",
+      "name": "Gabon",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Gabon",
+      "iso2": "GA",
+      "sourceUnits": [
+        "GAB"
+      ],
+      "bbox": [
+        1886.956,
+        876.775,
+        1944.99,
+        939.369
+      ],
+      "center": [
+        1918.359,
+        904.377
+      ]
+    },
+    {
+      "id": "md-ga",
+      "name": "Gagauzia",
+      "kind": "territory",
+      "aliases": [
+        "Comrat"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Moldova",
+      "iso2": "MD",
+      "sourceUnits": [
+        "MD-GA"
+      ],
+      "parentId": "mda",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2082.704,
+        434.974,
+        2089.162,
+        444.98
+      ],
+      "center": [
+        2086.657,
+        437.864
+      ]
+    },
+    {
+      "id": "es-ga",
+      "name": "Galicia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-OR",
+        "ES-PO",
+        "ES-C",
+        "ES-LU"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1707.08,
+        462.066,
+        1732.643,
+        481.94
+      ],
+      "center": [
+        1725.54,
+        469.855
+      ]
+    },
+    {
+      "id": "geo",
+      "name": "Georgia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Georgia",
+      "iso2": "GE",
+      "sourceUnits": [
+        "GEG"
+      ],
+      "bbox": [
+        2199.86,
+        464.242,
+        2266.948,
+        489.559
+      ],
+      "center": [
+        2237.357,
+        481.299
+      ]
+    },
+    {
+      "id": "deu",
+      "name": "Germany",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Germany",
+      "iso2": "DE",
+      "sourceUnits": [
+        "DEU"
+      ],
+      "bbox": [
+        1858.525,
+        349.347,
+        1950.221,
+        427.289
+      ],
+      "center": [
+        1896.783,
+        390.383
+      ]
+    },
+    {
+      "id": "gha",
+      "name": "Ghana",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Ghana",
+      "iso2": "GH",
+      "sourceUnits": [
+        "GHA"
+      ],
+      "bbox": [
+        1767.375,
+        788.371,
+        1811.88,
+        852.629
+      ],
+      "center": [
+        1789.631,
+        822.824
+      ]
+    },
+    {
+      "id": "gib",
+      "name": "Gibraltar",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GI",
+      "sourceUnits": [
+        "GIB"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1746.416,
+        538.589,
+        1746.612,
+        538.895
+      ],
+      "center": [
+        1746.533,
+        538.706
+      ]
+    },
+    {
+      "id": "pk-gb",
+      "name": "Gilgit-Baltistan",
+      "kind": "territory",
+      "aliases": [
+        "Northern Areas"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Pakistan",
+      "iso2": "PK",
+      "sourceUnits": [
+        "PK-GB"
+      ],
+      "parentId": "pak",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2525.156,
+        529.455,
+        2570.49,
+        555.03
+      ],
+      "center": [
+        2548.892,
+        541.898
+      ]
+    },
+    {
+      "id": "tj-gb",
+      "name": "Gorno-Badakhshan",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Tajikistan",
+      "iso2": "TJ",
+      "sourceUnits": [
+        "TJ-GB"
+      ],
+      "parentId": "tjk",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2502.738,
+        505.326,
+        2551.641,
+        533.214
+      ],
+      "center": [
+        2528.818,
+        518.932
+      ]
+    },
+    {
+      "id": "grc",
+      "name": "Greece",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Greece",
+      "iso2": "GR",
+      "sourceUnits": [
+        "GRC"
+      ],
+      "bbox": [
+        1996.265,
+        482.495,
+        2082.398,
+        551.85
+      ],
+      "center": [
+        2017.257,
+        505.072
+      ]
+    },
+    {
+      "id": "grl",
+      "name": "Greenland",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Denmark",
+      "iso2": "GL",
+      "sourceUnits": [
+        "GRL"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1069.428,
+        63.659,
+        1686.232,
+        302.074
+      ],
+      "center": [
+        1406.647,
+        156.806
+      ]
+    },
+    {
+      "id": "grd",
+      "name": "Grenada",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Grenada",
+      "iso2": "GD",
+      "sourceUnits": [
+        "GRD"
+      ],
+      "bbox": [
+        1182.095,
+        774.703,
+        1185.784,
+        779.972
+      ],
+      "center": [
+        1183.195,
+        778.868
+      ]
+    },
+    {
+      "id": "glp",
+      "name": "Guadeloupe",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "France",
+      "iso2": "GP",
+      "sourceUnits": [
+        "GLP"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1182.022,
+        734.869,
+        1190.108,
+        741.53
+      ],
+      "center": [
+        1185.664,
+        737.007
+      ]
+    },
+    {
+      "id": "gum",
+      "name": "Guam",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "GU",
+      "sourceUnits": [
+        "GUM"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        3246.242,
+        763.459,
+        3249.522,
+        767.59
+      ],
+      "center": [
+        3247.036,
+        766.458
+      ]
+    },
+    {
+      "id": "cn-gx",
+      "name": "Guangxi",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "CN",
+      "sourceUnits": [
+        "CN-GX"
+      ],
+      "parentId": "chn",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2844.831,
+        636.101,
+        2920.526,
+        689.788
+      ],
+      "center": [
+        2887.768,
+        661.685
+      ]
+    },
+    {
+      "id": "gtm",
+      "name": "Guatemala",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Guatemala",
+      "iso2": "GT",
+      "sourceUnits": [
+        "GTM"
+      ],
+      "bbox": [
+        877.537,
+        721.84,
+        917.791,
+        762.686
+      ],
+      "center": [
+        895.029,
+        750.179
+      ]
+    },
+    {
+      "id": "ggy",
+      "name": "Guernsey",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GG",
+      "sourceUnits": [
+        "GGY"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1773.265,
+        404.845,
+        1775.548,
+        405.733
+      ],
+      "center": [
+        1774.383,
+        405.365
+      ]
+    },
+    {
+      "id": "gin",
+      "name": "Guinea",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Guinea",
+      "iso2": "GN",
+      "sourceUnits": [
+        "GIN"
+      ],
+      "bbox": [
+        1649.189,
+        773.266,
+        1723.376,
+        828.098
+      ],
+      "center": [
+        1699.836,
+        793.815
+      ]
+    },
+    {
+      "id": "gnb",
+      "name": "Guinea-Bissau",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Guinea-Bissau",
+      "iso2": "GW",
+      "sourceUnits": [
+        "GNB"
+      ],
+      "bbox": [
+        1632.716,
+        773.206,
+        1663.393,
+        790.724
+      ],
+      "center": [
+        1654.759,
+        778.363
+      ]
+    },
+    {
+      "id": "pa-ky",
+      "name": "Guna Yala",
+      "kind": "territory",
+      "aliases": [
+        "Kuna Yala"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Panama",
+      "iso2": "PA",
+      "sourceUnits": [
+        "PA-KY"
+      ],
+      "parentId": "pan",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1007.19,
+        804.267,
+        1026.265,
+        814.622
+      ],
+      "center": [
+        1016.993,
+        808.355
+      ]
+    },
+    {
+      "id": "guy",
+      "name": "Guyana",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Guyana",
+      "iso2": "GY",
+      "sourceUnits": [
+        "GUY"
+      ],
+      "bbox": [
+        1186.033,
+        814.42,
+        1235.182,
+        888.142
+      ],
+      "center": [
+        1210.574,
+        848.757
+      ]
+    },
+    {
+      "id": "hti",
+      "name": "Haiti",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Haiti",
+      "iso2": "HT",
+      "sourceUnits": [
+        "HTI"
+      ],
+      "bbox": [
+        1055.108,
+        699.102,
+        1083.609,
+        719.741
+      ],
+      "center": [
+        1077.759,
+        707.362
+      ]
+    },
+    {
+      "id": "hmd",
+      "name": "Heard Island and McDonald Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "Australia",
+      "iso2": "HM",
+      "sourceUnits": [
+        "HMD"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2532.36,
+        1429.616,
+        2538.122,
+        1431.926
+      ],
+      "center": [
+        2535.052,
+        1431.035
+      ]
+    },
+    {
+      "id": "hnd",
+      "name": "Honduras",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Honduras",
+      "iso2": "HN",
+      "sourceUnits": [
+        "HND"
+      ],
+      "bbox": [
+        906.362,
+        725.814,
+        968.696,
+        770.202
+      ],
+      "center": [
+        931.124,
+        752.052
+      ]
+    },
+    {
+      "id": "hkg",
+      "name": "Hong Kong",
+      "kind": "territory",
+      "aliases": [
+        "Hong Kong SAR",
+        "Hong Kong S.A.R."
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "HK",
+      "sourceUnits": [
+        "HKG"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2938.373,
+        674.361,
+        2944.013,
+        678.229
+      ],
+      "center": [
+        2940.978,
+        675.512
+      ]
+    },
+    {
+      "id": "hqi",
+      "name": "Howland Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "HQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        33.595,
+        891.93,
+        33.639,
+        892.098
+      ],
+      "center": [
+        33.618,
+        891.98
+      ]
+    },
+    {
+      "id": "hun",
+      "name": "Hungary",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Hungary",
+      "iso2": "HU",
+      "sourceUnits": [
+        "HUN"
+      ],
+      "bbox": [
+        1960.94,
+        414.308,
+        2028.776,
+        442.587
+      ],
+      "center": [
+        1994.479,
+        429.132
+      ]
+    },
+    {
+      "id": "isl",
+      "name": "Iceland",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Iceland",
+      "iso2": "IS",
+      "sourceUnits": [
+        "ISL"
+      ],
+      "bbox": [
+        1554.601,
+        234.358,
+        1664.971,
+        266.033
+      ],
+      "center": [
+        1613.263,
+        252.207
+      ]
+    },
+    {
+      "id": "ind",
+      "name": "India",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "India",
+      "iso2": "IN",
+      "sourceUnits": [
+        "IND"
+      ],
+      "bbox": [
+        2481.434,
+        545.046,
+        2773.623,
+        832.544
+      ],
+      "center": [
+        2593.581,
+        673.131
+      ]
+    },
+    {
+      "id": "idn",
+      "name": "Indonesia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Indonesia",
+      "iso2": "ID",
+      "sourceUnits": [
+        "IDN"
+      ],
+      "bbox": [
+        2750.127,
+        840.899,
+        3209.776,
+        1009.226
+      ],
+      "center": [
+        2818.929,
+        909.544
+      ]
+    },
+    {
+      "id": "ru-in",
+      "name": "Ingushetia",
+      "kind": "territory",
+      "aliases": [
+        "Ingush"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-IN"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2244.975,
+        463.802,
+        2251.802,
+        473.904
+      ],
+      "center": [
+        2248.733,
+        468.241
+      ]
+    },
+    {
+      "id": "cn-nm",
+      "name": "Inner Mongolia",
+      "kind": "territory",
+      "aliases": [
+        "Inner Mongol"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "CN",
+      "sourceUnits": [
+        "CN-NM"
+      ],
+      "parentId": "chn",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2771.907,
+        366.759,
+        3060.563,
+        526.097
+      ],
+      "center": [
+        2939.078,
+        459.181
+      ]
+    },
+    {
+      "id": "irn",
+      "name": "Iran",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Iran",
+      "iso2": "IR",
+      "sourceUnits": [
+        "IRN"
+      ],
+      "bbox": [
+        2240.149,
+        502.285,
+        2433.196,
+        649.406
+      ],
+      "center": [
+        2349.315,
+        578.338
+      ]
+    },
+    {
+      "id": "irq",
+      "name": "Iraq",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Iraq",
+      "iso2": "IQ",
+      "sourceUnits": [
+        "IRR"
+      ],
+      "bbox": [
+        2187.745,
+        526.245,
+        2285.593,
+        609.369
+      ],
+      "center": [
+        2232.611,
+        568.952
+      ]
+    },
+    {
+      "id": "irl",
+      "name": "Ireland",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Ireland",
+      "iso2": "IE",
+      "sourceUnits": [
+        "IRL"
+      ],
+      "bbox": [
+        1695.218,
+        346.136,
+        1740.065,
+        385.543
+      ],
+      "center": [
+        1722.014,
+        369.213
+      ]
+    },
+    {
+      "id": "imn",
+      "name": "Isle of Man",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "IM",
+      "sourceUnits": [
+        "IMN"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1752.098,
+        355.81,
+        1756.881,
+        359.43
+      ],
+      "center": [
+        1754.699,
+        357.792
+      ]
+    },
+    {
+      "id": "isr",
+      "name": "Israel",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Israel",
+      "iso2": "IL",
+      "sourceUnits": [
+        "ISR"
+      ],
+      "bbox": [
+        2142.484,
+        565.933,
+        2158.881,
+        605.103
+      ],
+      "center": [
+        2148.479,
+        590.889
+      ]
+    },
+    {
+      "id": "ita",
+      "name": "Italy",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Italy",
+      "iso2": "IT",
+      "sourceUnits": [
+        "ITA"
+      ],
+      "bbox": [
+        1866.027,
+        429.148,
+        1985.174,
+        545.108
+      ],
+      "center": [
+        1910.769,
+        452.675
+      ]
+    },
+    {
+      "id": "jam",
+      "name": "Jamaica",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Jamaica",
+      "iso2": "JM",
+      "sourceUnits": [
+        "JAM"
+      ],
+      "bbox": [
+        1016.253,
+        714.749,
+        1038.12,
+        722.968
+      ],
+      "center": [
+        1026.812,
+        718.629
+      ]
+    },
+    {
+      "id": "njm",
+      "name": "Jan Mayen",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Europe",
+      "sovereign": "Norway",
+      "iso2": "NO",
+      "sourceUnits": [
+        "NJM"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1708.826,
+        188.196,
+        1720.615,
+        191.933
+      ],
+      "center": [
+        1712.93,
+        126.16
+      ]
+    },
+    {
+      "id": "jpn",
+      "name": "Japan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Japan",
+      "iso2": "JP",
+      "sourceUnits": [
+        "JPN"
+      ],
+      "bbox": [
+        3029.382,
+        444.796,
+        3339.856,
+        657.879
+      ],
+      "center": [
+        3184.422,
+        538.575
+      ]
+    },
+    {
+      "id": "dqi",
+      "name": "Jarvis Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "DQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        199.7,
+        903.725,
+        199.911,
+        903.888
+      ],
+      "center": [
+        199.801,
+        903.798
+      ]
+    },
+    {
+      "id": "jey",
+      "name": "Jersey",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "JE",
+      "sourceUnits": [
+        "JEY"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1777.58,
+        407.33,
+        1779.917,
+        408.287
+      ],
+      "center": [
+        1779.099,
+        407.792
+      ]
+    },
+    {
+      "id": "ru-yev",
+      "name": "Jewish Autonomous Oblast",
+      "kind": "territory",
+      "aliases": [
+        "Yevrey"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-YEV"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        3105.297,
+        405.145,
+        3149.866,
+        423.385
+      ],
+      "center": [
+        3122.628,
+        414.805
+      ]
+    },
+    {
+      "id": "jqi",
+      "name": "Johnston Atoll",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "JQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        104.505,
+        732.374,
+        104.872,
+        732.79
+      ],
+      "center": [
+        104.62,
+        732.726
+      ]
+    },
+    {
+      "id": "jor",
+      "name": "Jordan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Jordan",
+      "iso2": "JO",
+      "sourceUnits": [
+        "JOR"
+      ],
+      "bbox": [
+        2149.494,
+        566.283,
+        2192.92,
+        608.1
+      ],
+      "center": [
+        2163.76,
+        591.95
+      ]
+    },
+    {
+      "id": "ru-kb",
+      "name": "Kabardino-Balkaria",
+      "kind": "territory",
+      "aliases": [
+        "Kabardin-Balkar"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-KB"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2223.626,
+        460.014,
+        2244.337,
+        471.131
+      ],
+      "center": [
+        2233.972,
+        465.143
+      ]
+    },
+    {
+      "id": "ru-kl",
+      "name": "Kalmykia",
+      "kind": "territory",
+      "aliases": [
+        "Kalmyk"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-KL"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2216.471,
+        417.409,
+        2275.383,
+        452.481
+      ],
+      "center": [
+        2253.177,
+        435.556
+      ]
+    },
+    {
+      "id": "ru-kc",
+      "name": "Karachay-Cherkessia",
+      "kind": "territory",
+      "aliases": [
+        "Karachay-Cherkess"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-KC"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2206.9,
+        455.052,
+        2226.832,
+        468.194
+      ],
+      "center": [
+        2217.39,
+        462.41
+      ]
+    },
+    {
+      "id": "uz-qr",
+      "name": "Karakalpakstan",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Uzbekistan",
+      "iso2": "UZ",
+      "sourceUnits": [
+        "UZ-QR"
+      ],
+      "parentId": "uzb",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2359.758,
+        444.413,
+        2424.71,
+        490.141
+      ],
+      "center": [
+        2388.184,
+        465.786
+      ]
+    },
+    {
+      "id": "ru-kr",
+      "name": "Karelia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-KR"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2092.771,
+        233.159,
+        2179.424,
+        293.543
+      ],
+      "center": [
+        2131.188,
+        264.531
+      ]
+    },
+    {
+      "id": "kaz",
+      "name": "Kazakhstan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Kazakhstan",
+      "iso2": "KZ",
+      "sourceUnits": [
+        "KAZ",
+        "KAB"
+      ],
+      "bbox": [
+        2264.783,
+        345.654,
+        2673.238,
+        494.153
+      ],
+      "center": [
+        2486.855,
+        409.459
+      ]
+    },
+    {
+      "id": "ken",
+      "name": "Kenya",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Kenya",
+      "iso2": "KE",
+      "sourceUnits": [
+        "KEN"
+      ],
+      "bbox": [
+        2138.905,
+        849.696,
+        2218.85,
+        946.775
+      ],
+      "center": [
+        2179.076,
+        894.51
+      ]
+    },
+    {
+      "id": "ru-kk",
+      "name": "Khakassia",
+      "kind": "territory",
+      "aliases": [
+        "Khakass"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-KK"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2678.346,
+        345.544,
+        2718.464,
+        386.836
+      ],
+      "center": [
+        2698.548,
+        366.342
+      ]
+    },
+    {
+      "id": "ru-khm",
+      "name": "Khanty-Mansi Autonomous Okrug",
+      "kind": "territory",
+      "aliases": [
+        "Khanty Mansi",
+        "Yugra",
+        "Khanty-Mansiy"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-KHM"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2392.232,
+        242.829,
+        2659.739,
+        314.109
+      ],
+      "center": [
+        2502.923,
+        281.329
+      ]
+    },
+    {
+      "id": "kqi",
+      "name": "Kingman Reef",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "KQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        175.998,
+        835.549,
+        176.147,
+        835.698
+      ],
+      "center": [
+        176.073,
+        835.623
+      ]
+    },
+    {
+      "id": "kir",
+      "name": "Kiribati",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Kiribati",
+      "iso2": "KI",
+      "sourceUnits": [
+        "KIR"
+      ],
+      "bbox": [
+        54.566,
+        852.769,
+        3568.509,
+        1014.611
+      ],
+      "center": [
+        226.154,
+        881.796
+      ]
+    },
+    {
+      "id": "ru-ko",
+      "name": "Komi Republic",
+      "kind": "territory",
+      "aliases": [
+        "Komi"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-KO"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2254.271,
+        215.687,
+        2462.095,
+        307.916
+      ],
+      "center": [
+        2347.834,
+        258.717
+      ]
+    },
+    {
+      "id": "xkx",
+      "name": "Kosovo",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Kosovo",
+      "iso2": "XK",
+      "sourceUnits": [
+        "KOS"
+      ],
+      "bbox": [
+        2000.248,
+        467.369,
+        2017.728,
+        481.56
+      ],
+      "center": [
+        2008.607,
+        474.064
+      ]
+    },
+    {
+      "id": "irk",
+      "name": "Kurdistan Region",
+      "kind": "territory",
+      "aliases": [
+        "Kurdistan",
+        "Iraqi Kurdistan"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Iraq",
+      "iso2": "IQ",
+      "sourceUnits": [
+        "IRK"
+      ],
+      "parentId": "irq",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2223.572,
+        526.245,
+        2263.271,
+        554.872
+      ],
+      "center": [
+        2245.098,
+        538.941
+      ]
+    },
+    {
+      "id": "kwt",
+      "name": "Kuwait",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Kuwait",
+      "iso2": "KW",
+      "sourceUnits": [
+        "KWT"
+      ],
+      "bbox": [
+        2265.324,
+        599.018,
+        2284.328,
+        614.665
+      ],
+      "center": [
+        2273.14,
+        605.864
+      ]
+    },
+    {
+      "id": "kgz",
+      "name": "Kyrgyzstan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Kyrgyzstan",
+      "iso2": "KG",
+      "sourceUnits": [
+        "KGZ"
+      ],
+      "bbox": [
+        2492.263,
+        467.383,
+        2602.576,
+        508.108
+      ],
+      "center": [
+        2545.326,
+        483.315
+      ]
+    },
+    {
+      "id": "es-ri",
+      "name": "La Rioja",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-LO"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1768.79,
+        473.559,
+        1783.142,
+        480.816
+      ],
+      "center": [
+        1775.044,
+        477.195
+      ]
+    },
+    {
+      "id": "lao",
+      "name": "Laos",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Laos",
+      "iso2": "LA",
+      "sourceUnits": [
+        "LAO"
+      ],
+      "bbox": [
+        2800.971,
+        675.04,
+        2876.644,
+        760.845
+      ],
+      "center": [
+        2825.339,
+        705.682
+      ]
+    },
+    {
+      "id": "lva",
+      "name": "Latvia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Latvia",
+      "iso2": "LV",
+      "sourceUnits": [
+        "LVA"
+      ],
+      "bbox": [
+        2009.686,
+        319.249,
+        2082.173,
+        343.33
+      ],
+      "center": [
+        2054.587,
+        329.331
+      ]
+    },
+    {
+      "id": "lbn",
+      "name": "Lebanon",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Lebanon",
+      "iso2": "LB",
+      "sourceUnits": [
+        "LBN"
+      ],
+      "bbox": [
+        2150.996,
+        553.125,
+        2166.041,
+        569.444
+      ],
+      "center": [
+        2159.929,
+        558.666
+      ]
+    },
+    {
+      "id": "lso",
+      "name": "Lesotho",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Lesotho",
+      "iso2": "LS",
+      "sourceUnits": [
+        "LSO"
+      ],
+      "bbox": [
+        2070.022,
+        1185.708,
+        2094.359,
+        1206.588
+      ],
+      "center": [
+        2082.466,
+        1194.802
+      ]
+    },
+    {
+      "id": "lbr",
+      "name": "Liberia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Liberia",
+      "iso2": "LR",
+      "sourceUnits": [
+        "LBR"
+      ],
+      "bbox": [
+        1685.238,
+        814.346,
+        1726.159,
+        856.528
+      ],
+      "center": [
+        1705.396,
+        835.528
+      ]
+    },
+    {
+      "id": "lby",
+      "name": "Libya",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Libya",
+      "iso2": "LY",
+      "sourceUnits": [
+        "LBY"
+      ],
+      "bbox": [
+        1892.865,
+        568.188,
+        2051.563,
+        705.039
+      ],
+      "center": [
+        1980.11,
+        633.611
+      ]
+    },
+    {
+      "id": "lie",
+      "name": "Liechtenstein",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Liechtenstein",
+      "iso2": "LI",
+      "sourceUnits": [
+        "LIE"
+      ],
+      "bbox": [
+        1894.759,
+        427.372,
+        1896.157,
+        429.476
+      ],
+      "center": [
+        1895.594,
+        428.886
+      ]
+    },
+    {
+      "id": "ltu",
+      "name": "Lithuania",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Lithuania",
+      "iso2": "LT",
+      "sourceUnits": [
+        "LTU"
+      ],
+      "bbox": [
+        2009.246,
+        335.574,
+        2068.007,
+        361.132
+      ],
+      "center": [
+        2040.899,
+        348.963
+      ]
+    },
+    {
+      "id": "lux",
+      "name": "Luxembourg",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Luxembourg",
+      "iso2": "LU",
+      "sourceUnits": [
+        "LUX"
+      ],
+      "bbox": [
+        1857.149,
+        398.25,
+        1865.026,
+        405.587
+      ],
+      "center": [
+        1860.776,
+        402.663
+      ]
+    },
+    {
+      "id": "mac",
+      "name": "Macau",
+      "kind": "territory",
+      "aliases": [
+        "Macao",
+        "Macau SAR",
+        "Macao SAR"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "MO",
+      "sourceUnits": [
+        "MAC"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2935.199,
+        677.792,
+        2935.875,
+        678.946
+      ],
+      "center": [
+        2935.56,
+        678.703
+      ]
+    },
+    {
+      "id": "mdg",
+      "name": "Madagascar",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Madagascar",
+      "iso2": "MG",
+      "sourceUnits": [
+        "MDG"
+      ],
+      "bbox": [
+        2232.229,
+        1019.436,
+        2305.039,
+        1155.986
+      ],
+      "center": [
+        2267.042,
+        1086.283
+      ]
+    },
+    {
+      "id": "pmd",
+      "name": "Madeira",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Portugal",
+      "iso2": "PT",
+      "sourceUnits": [
+        "PMD"
+      ],
+      "parentId": "prt",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1627.479,
+        568.892,
+        1641.45,
+        599.708
+      ],
+      "center": [
+        1630.1,
+        572.496
+      ]
+    },
+    {
+      "id": "mwi",
+      "name": "Malawi",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Malawi",
+      "iso2": "MW",
+      "sourceUnits": [
+        "MWI"
+      ],
+      "bbox": [
+        2126.633,
+        993.812,
+        2159.043,
+        1071.353
+      ],
+      "center": [
+        2136.081,
+        1033.867
+      ]
+    },
+    {
+      "id": "mys",
+      "name": "Malaysia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Malaysia",
+      "iso2": "MY",
+      "sourceUnits": [
+        "MYS"
+      ],
+      "bbox": [
+        2796.452,
+        826.442,
+        2992.781,
+        891.486
+      ],
+      "center": [
+        2938.371,
+        874.713
+      ]
+    },
+    {
+      "id": "mdv",
+      "name": "Maldives",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "Maldives",
+      "iso2": "MV",
+      "sourceUnits": [
+        "MDV"
+      ],
+      "bbox": [
+        2526.848,
+        828.928,
+        2537.532,
+        906.886
+      ],
+      "center": [
+        2535.076,
+        858.256
+      ]
+    },
+    {
+      "id": "mli",
+      "name": "Mali",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Mali",
+      "iso2": "ML",
+      "sourceUnits": [
+        "MLI"
+      ],
+      "bbox": [
+        1677.359,
+        650.049,
+        1842.356,
+        798.599
+      ],
+      "center": [
+        1779.615,
+        713.073
+      ]
+    },
+    {
+      "id": "mlt",
+      "name": "Malta",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Malta",
+      "iso2": "MT",
+      "sourceUnits": [
+        "MLT"
+      ],
+      "bbox": [
+        1941.836,
+        539.244,
+        1945.671,
+        541.988
+      ],
+      "center": [
+        1944.33,
+        541.071
+      ]
+    },
+    {
+      "id": "ru-me",
+      "name": "Mari El",
+      "kind": "territory",
+      "aliases": [
+        "Mariy-El"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-ME"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2256.287,
+        326.699,
+        2301.976,
+        341.718
+      ],
+      "center": [
+        2279.395,
+        334.186
+      ]
+    },
+    {
+      "id": "mhl",
+      "name": "Marshall Islands",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Marshall Islands",
+      "iso2": "MH",
+      "sourceUnits": [
+        "MHL"
+      ],
+      "bbox": [
+        3452.822,
+        753.895,
+        3520.298,
+        854.262
+      ],
+      "center": [
+        3511.936,
+        829.174
+      ]
+    },
+    {
+      "id": "mtq",
+      "name": "Martinique",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "France",
+      "iso2": "MQ",
+      "sourceUnits": [
+        "MTQ"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1187.712,
+        751.231,
+        1191.896,
+        755.919
+      ],
+      "center": [
+        1189.443,
+        752.88
+      ]
+    },
+    {
+      "id": "mrt",
+      "name": "Mauritania",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Mauritania",
+      "iso2": "MR",
+      "sourceUnits": [
+        "MRT"
+      ],
+      "bbox": [
+        1629.188,
+        627.146,
+        1751.784,
+        752.656
+      ],
+      "center": [
+        1702.597,
+        704.129
+      ]
+    },
+    {
+      "id": "mus",
+      "name": "Mauritius",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "Mauritius",
+      "iso2": "MU",
+      "sourceUnits": [
+        "MUS"
+      ],
+      "bbox": [
+        2365.242,
+        1003.239,
+        2434.939,
+        1105.173
+      ],
+      "center": [
+        2375.658,
+        1102.995
+      ]
+    },
+    {
+      "id": "myt",
+      "name": "Mayotte",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "France",
+      "iso2": "YT",
+      "sourceUnits": [
+        "MYT"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2250.425,
+        1026.472,
+        2252.909,
+        1029.892
+      ],
+      "center": [
+        2251.513,
+        1027.748
+      ]
+    },
+    {
+      "id": "es-ml",
+      "name": "Melilla",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-ML"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1770.331,
+        546.702,
+        1770.871,
+        547.321
+      ],
+      "center": [
+        1770.556,
+        547.046
+      ]
+    },
+    {
+      "id": "mex",
+      "name": "Mexico",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Mexico",
+      "iso2": "MX",
+      "sourceUnits": [
+        "MEX"
+      ],
+      "bbox": [
+        616.312,
+        572.872,
+        932.994,
+        754.537
+      ],
+      "center": [
+        777.106,
+        660.8
+      ]
+    },
+    {
+      "id": "mqi",
+      "name": "Midway Atoll",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "MQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        26.104,
+        617.847,
+        26.788,
+        618.023
+      ],
+      "center": [
+        26.25,
+        617.926
+      ]
+    },
+    {
+      "id": "mda",
+      "name": "Moldova",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Moldova",
+      "iso2": "MD",
+      "sourceUnits": [
+        "MDA"
+      ],
+      "bbox": [
+        2066.179,
+        415.14,
+        2101.316,
+        445.382
+      ],
+      "center": [
+        2084.879,
+        425.65
+      ]
+    },
+    {
+      "id": "mco",
+      "name": "Monaco",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Monaco",
+      "iso2": "MC",
+      "sourceUnits": [
+        "MCO"
+      ],
+      "bbox": [
+        1873.658,
+        462.365,
+        1874.375,
+        462.82
+      ],
+      "center": [
+        1873.983,
+        462.603
+      ]
+    },
+    {
+      "id": "mng",
+      "name": "Mongolia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Mongolia",
+      "iso2": "MN",
+      "sourceUnits": [
+        "MNG"
+      ],
+      "bbox": [
+        2677.357,
+        378.704,
+        2999.07,
+        484.139
+      ],
+      "center": [
+        2841.504,
+        440.025
+      ]
+    },
+    {
+      "id": "mne",
+      "name": "Montenegro",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Montenegro",
+      "iso2": "ME",
+      "sourceUnits": [
+        "MNE"
+      ],
+      "bbox": [
+        1984.335,
+        464.521,
+        2003.552,
+        481.476
+      ],
+      "center": [
+        1991.437,
+        471.969
+      ]
+    },
+    {
+      "id": "msr",
+      "name": "Montserrat",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United Kingdom",
+      "iso2": "MS",
+      "sourceUnits": [
+        "MSR"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1177.699,
+        731.807,
+        1178.595,
+        733.246
+      ],
+      "center": [
+        1178.117,
+        732.628
+      ]
+    },
+    {
+      "id": "mar",
+      "name": "Morocco",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Morocco",
+      "iso2": "MA",
+      "sourceUnits": [
+        "MAR"
+      ],
+      "bbox": [
+        1629.863,
+        540.735,
+        1789.68,
+        685.8
+      ],
+      "center": [
+        1728.127,
+        583.493
+      ]
+    },
+    {
+      "id": "gr-69",
+      "name": "Mount Athos",
+      "kind": "territory",
+      "aliases": [
+        "Ayion Oros"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Greece",
+      "iso2": "GR",
+      "sourceUnits": [
+        "GR-69"
+      ],
+      "parentId": "grc",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2039.912,
+        495.508,
+        2043.938,
+        498.753
+      ],
+      "center": [
+        2041.911,
+        497.254
+      ]
+    },
+    {
+      "id": "moz",
+      "name": "Mozambique",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Mozambique",
+      "iso2": "MZ",
+      "sourceUnits": [
+        "MOZ"
+      ],
+      "bbox": [
+        2102.138,
+        1004.69,
+        2208.48,
+        1168.603
+      ],
+      "center": [
+        2178.379,
+        1039.432
+      ]
+    },
+    {
+      "id": "mmr",
+      "name": "Myanmar",
+      "kind": "country",
+      "aliases": [
+        "Burma"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Myanmar",
+      "iso2": "MM",
+      "sourceUnits": [
+        "MMR"
+      ],
+      "bbox": [
+        2721.75,
+        614.615,
+        2811.739,
+        802.093
+      ],
+      "center": [
+        2758.045,
+        684.261
+      ]
+    },
+    {
+      "id": "az-nx",
+      "name": "Nakhchivan",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Azerbaijan",
+      "iso2": "AZ",
+      "sourceUnits": [
+        "AZ-SAR",
+        "AZ-SAD",
+        "AZ-KAN",
+        "AZ-BAB",
+        "AZ-SAH",
+        "AZ-CUL",
+        "AZ-ORD",
+        "AZ-NX"
+      ],
+      "parentId": "aze",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2247.746,
+        502.296,
+        2261.359,
+        511.373
+      ],
+      "center": [
+        2253.554,
+        507.093
+      ]
+    },
+    {
+      "id": "nam",
+      "name": "Namibia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Namibia",
+      "iso2": "NA",
+      "sourceUnits": [
+        "NAM"
+      ],
+      "bbox": [
+        1917.176,
+        1069.511,
+        2052.598,
+        1189.594
+      ],
+      "center": [
+        1971.082,
+        1105.753
+      ]
+    },
+    {
+      "id": "nru",
+      "name": "Nauru",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Nauru",
+      "iso2": "NR",
+      "sourceUnits": [
+        "NRU"
+      ],
+      "bbox": [
+        3469.07,
+        904.904,
+        3469.583,
+        905.519
+      ],
+      "center": [
+        3469.326,
+        905.203
+      ]
+    },
+    {
+      "id": "es-nc",
+      "name": "Navarre",
+      "kind": "territory",
+      "aliases": [
+        "Navarra"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-NA"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1775.055,
+        466.951,
+        1792.55,
+        480.911
+      ],
+      "center": [
+        1783.561,
+        473.304
+      ]
+    },
+    {
+      "id": "bqi",
+      "name": "Navassa Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "North America",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "BQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1049.692,
+        715.827,
+        1049.974,
+        716.05
+      ],
+      "center": [
+        1049.879,
+        715.941
+      ]
+    },
+    {
+      "id": "ru-nen",
+      "name": "Nenets Autonomous Okrug",
+      "kind": "territory",
+      "aliases": [
+        "Nenets"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-NEN"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2232.737,
+        195.202,
+        2456.544,
+        241.919
+      ],
+      "center": [
+        2350.133,
+        222.032
+      ]
+    },
+    {
+      "id": "npl",
+      "name": "Nepal",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Nepal",
+      "iso2": "NP",
+      "sourceUnits": [
+        "NPL"
+      ],
+      "bbox": [
+        2600.303,
+        595.831,
+        2681.691,
+        636.562
+      ],
+      "center": [
+        2636.399,
+        617.021
+      ]
+    },
+    {
+      "id": "nld",
+      "name": "Netherlands",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Netherlands",
+      "iso2": "NL",
+      "sourceUnits": [
+        "NLX"
+      ],
+      "bbox": [
+        1833.494,
+        364.419,
+        1871.985,
+        392.525
+      ],
+      "center": [
+        1856.114,
+        375.778
+      ]
+    },
+    {
+      "id": "ncl",
+      "name": "New Caledonia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "France",
+      "iso2": "NC",
+      "sourceUnits": [
+        "NCL"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        3436.157,
+        1096.237,
+        3513.438,
+        1126.707
+      ],
+      "center": [
+        3450.84,
+        1110.647
+      ]
+    },
+    {
+      "id": "nzl",
+      "name": "New Zealand",
+      "kind": "country",
+      "aliases": [
+        "NZ"
+      ],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "New Zealand",
+      "iso2": "NZ",
+      "sourceUnits": [
+        "NZL"
+      ],
+      "bbox": [
+        20.42,
+        1192.219,
+        3588.439,
+        1426.003
+      ],
+      "center": [
+        3527.87,
+        1297.59
+      ]
+    },
+    {
+      "id": "pa-nb",
+      "name": "Ngäbe-Buglé",
+      "kind": "territory",
+      "aliases": [
+        "Ngöbe Buglé"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Panama",
+      "iso2": "PA",
+      "sourceUnits": [
+        "PA-NB"
+      ],
+      "parentId": "pan",
+      "subtype": "Autonomous region",
+      "bbox": [
+        975.604,
+        808.205,
+        988.439,
+        817.378
+      ],
+      "center": [
+        982.047,
+        813.259
+      ]
+    },
+    {
+      "id": "nic",
+      "name": "Nicaragua",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Nicaragua",
+      "iso2": "NI",
+      "sourceUnits": [
+        "NIC"
+      ],
+      "bbox": [
+        923.142,
+        749.69,
+        972.743,
+        792.865
+      ],
+      "center": [
+        949.307,
+        773.293
+      ]
+    },
+    {
+      "id": "ner",
+      "name": "Niger",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Niger",
+      "iso2": "NE",
+      "sourceUnits": [
+        "NER"
+      ],
+      "bbox": [
+        1801.529,
+        664.826,
+        1959.703,
+        783.042
+      ],
+      "center": [
+        1895.044,
+        725.538
+      ]
+    },
+    {
+      "id": "nga",
+      "name": "Nigeria",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Nigeria",
+      "iso2": "NG",
+      "sourceUnits": [
+        "NGA"
+      ],
+      "bbox": [
+        1826.711,
+        761.197,
+        1946.699,
+        857.278
+      ],
+      "center": [
+        1875.032,
+        805.602
+      ]
+    },
+    {
+      "id": "cn-nx",
+      "name": "Ningxia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "CN",
+      "sourceUnits": [
+        "CN-NX"
+      ],
+      "parentId": "chn",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2843.585,
+        506.27,
+        2876.617,
+        547.447
+      ],
+      "center": [
+        2861.607,
+        527.329
+      ]
+    },
+    {
+      "id": "niu",
+      "name": "Niue",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "New Zealand",
+      "iso2": "NU",
+      "sourceUnits": [
+        "NIU"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        100.496,
+        1089.64,
+        102.171,
+        1091.428
+      ],
+      "center": [
+        101.374,
+        1090.46
+      ]
+    },
+    {
+      "id": "nfk",
+      "name": "Norfolk Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Australia",
+      "iso2": "NF",
+      "sourceUnits": [
+        "NFK"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        3479.121,
+        1189.975,
+        3479.963,
+        1190.8
+      ],
+      "center": [
+        3479.545,
+        1190.33
+      ]
+    },
+    {
+      "id": "ni-an",
+      "name": "North Caribbean Coast Autonomous Region",
+      "kind": "territory",
+      "aliases": [
+        "Atlántico Norte"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Nicaragua",
+      "iso2": "NI",
+      "sourceUnits": [
+        "NI-AN"
+      ],
+      "parentId": "nic",
+      "subtype": "Autonomous region",
+      "bbox": [
+        944.936,
+        749.69,
+        972.743,
+        769.697
+      ],
+      "center": [
+        957.83,
+        760.054
+      ]
+    },
+    {
+      "id": "prk",
+      "name": "North Korea",
+      "kind": "country",
+      "aliases": [
+        "DPRK"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "North Korea",
+      "iso2": "KP",
+      "sourceUnits": [
+        "PRK",
+        "KNZ"
+      ],
+      "bbox": [
+        3042.113,
+        469.897,
+        3107.0,
+        523.244
+      ],
+      "center": [
+        3064.445,
+        501.147
+      ]
+    },
+    {
+      "id": "mkd",
+      "name": "North Macedonia",
+      "kind": "country",
+      "aliases": [
+        "Macedonia"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "North Macedonia",
+      "iso2": "MK",
+      "sourceUnits": [
+        "MKD"
+      ],
+      "bbox": [
+        2004.442,
+        476.297,
+        2030.096,
+        491.506
+      ],
+      "center": [
+        2015.558,
+        484.418
+      ]
+    },
+    {
+      "id": "ru-se",
+      "name": "North Ossetia-Alania",
+      "kind": "territory",
+      "aliases": [
+        "North Ossetia"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-SE"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2233.862,
+        461.692,
+        2249.444,
+        474.478
+      ],
+      "center": [
+        2242.629,
+        469.035
+      ]
+    },
+    {
+      "id": "nir",
+      "name": "Northern Ireland",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GB",
+      "sourceUnits": [
+        "NIR"
+      ],
+      "parentId": "gbr",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1718.262,
+        346.887,
+        1745.692,
+        359.654
+      ],
+      "center": [
+        1733.059,
+        353.92
+      ]
+    },
+    {
+      "id": "mnp",
+      "name": "Northern Mariana Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "MP",
+      "sourceUnits": [
+        "MNP"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        3249.021,
+        694.446,
+        3258.689,
+        758.893
+      ],
+      "center": [
+        3257.344,
+        748.118
+      ]
+    },
+    {
+      "id": "au-nt",
+      "name": "Northern Territory",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Australia",
+      "iso2": "AU",
+      "sourceUnits": [
+        "AU-NT"
+      ],
+      "parentId": "aus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        3090.001,
+        1009.684,
+        3180.002,
+        1159.999
+      ],
+      "center": [
+        3133.716,
+        1094.78
+      ]
+    },
+    {
+      "id": "ca-nt",
+      "name": "Northwest Territories",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Canada",
+      "iso2": "CA",
+      "sourceUnits": [
+        "CA-NT"
+      ],
+      "parentId": "can",
+      "subtype": "Autonomous region",
+      "bbox": [
+        435.546,
+        112.337,
+        780.134,
+        299.999
+      ],
+      "center": [
+        603.713,
+        256.268
+      ]
+    },
+    {
+      "id": "nor",
+      "name": "Norway",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Norway",
+      "iso2": "NO",
+      "sourceUnits": [
+        "NOW"
+      ],
+      "bbox": [
+        1846.438,
+        188.347,
+        2110.77,
+        320.068
+      ],
+      "center": [
+        1896.8,
+        286.429
+      ]
+    },
+    {
+      "id": "ca-nu",
+      "name": "Nunavut",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Canada",
+      "iso2": "CA",
+      "sourceUnits": [
+        "CA-NU"
+      ],
+      "parentId": "can",
+      "subtype": "Autonomous region",
+      "bbox": [
+        593.192,
+        68.835,
+        1189.145,
+        380.814
+      ],
+      "center": [
+        814.169,
+        240.885
+      ]
+    },
+    {
+      "id": "omn",
+      "name": "Oman",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Oman",
+      "iso2": "OM",
+      "sourceUnits": [
+        "OMN"
+      ],
+      "bbox": [
+        2319.786,
+        636.14,
+        2398.446,
+        733.576
+      ],
+      "center": [
+        2373.366,
+        678.796
+      ]
+    },
+    {
+      "id": "pak",
+      "name": "Pakistan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Pakistan",
+      "iso2": "PK",
+      "sourceUnits": [
+        "PAK"
+      ],
+      "bbox": [
+        2408.444,
+        529.455,
+        2570.49,
+        663.055
+      ],
+      "center": [
+        2485.456,
+        606.716
+      ]
+    },
+    {
+      "id": "plw",
+      "name": "Palau",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Palau",
+      "iso2": "PW",
+      "sourceUnits": [
+        "PLW"
+      ],
+      "bbox": [
+        3111.311,
+        819.034,
+        3147.273,
+        870.51
+      ],
+      "center": [
+        3145.802,
+        824.817
+      ]
+    },
+    {
+      "id": "pse",
+      "name": "Palestine",
+      "kind": "country",
+      "aliases": [
+        "State of Palestine",
+        "Palestinian Territories",
+        "Palestinian territories"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Israel",
+      "iso2": "PS",
+      "sourceUnits": [
+        "GAZ",
+        "WEB"
+      ],
+      "bbox": [
+        2142.003,
+        574.574,
+        2155.725,
+        587.886
+      ],
+      "center": [
+        2142.811,
+        586.944
+      ]
+    },
+    {
+      "id": "lqi",
+      "name": "Palmyra Atoll",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "LQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        178.964,
+        841.098,
+        179.424,
+        841.306
+      ],
+      "center": [
+        179.262,
+        841.228
+      ]
+    },
+    {
+      "id": "pan",
+      "name": "Panama",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Panama",
+      "iso2": "PA",
+      "sourceUnits": [
+        "PAN"
+      ],
+      "bbox": [
+        969.468,
+        803.707,
+        1028.367,
+        827.943
+      ],
+      "center": [
+        996.479,
+        812.78
+      ]
+    },
+    {
+      "id": "png",
+      "name": "Papua New Guinea",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Papua New Guinea",
+      "iso2": "PG",
+      "sourceUnits": [
+        "PNX"
+      ],
+      "bbox": [
+        3208.492,
+        913.464,
+        3359.675,
+        1016.363
+      ],
+      "center": [
+        3239.102,
+        956.953
+      ]
+    },
+    {
+      "id": "id-papua",
+      "name": "Papua special-autonomy area",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Indonesia",
+      "iso2": "ID",
+      "sourceUnits": [
+        "ID-PA",
+        "ID-PB"
+      ],
+      "parentId": "idn",
+      "subtype": "Autonomous region",
+      "statusNote": "Combined special-autonomy area of western New Guinea. Source predates the 2022 division into six provinces; those six are represented together.",
+      "bbox": [
+        3097.149,
+        889.241,
+        3209.776,
+        991.061
+      ],
+      "center": [
+        3187.113,
+        945.615
+      ]
+    },
+    {
+      "id": "pfa",
+      "name": "Paracel Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "-99",
+      "sourceUnits": [
+        "PFA"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2911.929,
+        730.667,
+        2927.368,
+        742.246
+      ],
+      "center": [
+        2912.014,
+        742.165
+      ]
+    },
+    {
+      "id": "pry",
+      "name": "Paraguay",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Paraguay",
+      "iso2": "PY",
+      "sourceUnits": [
+        "PRY"
+      ],
+      "bbox": [
+        1173.496,
+        1092.867,
+        1257.547,
+        1175.868
+      ],
+      "center": [
+        1198.536,
+        1116.745
+      ]
+    },
+    {
+      "id": "per",
+      "name": "Peru",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Peru",
+      "iso2": "PE",
+      "sourceUnits": [
+        "PER"
+      ],
+      "bbox": [
+        986.624,
+        900.291,
+        1113.157,
+        1083.377
+      ],
+      "center": [
+        1070.998,
+        1029.767
+      ]
+    },
+    {
+      "id": "phl",
+      "name": "Philippines",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Philippines",
+      "iso2": "PH",
+      "sourceUnits": [
+        "PHL"
+      ],
+      "bbox": [
+        2969.549,
+        688.776,
+        3066.177,
+        853.443
+      ],
+      "center": [
+        3024.65,
+        788.02
+      ]
+    },
+    {
+      "id": "pcn",
+      "name": "Pitcairn Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "United Kingdom",
+      "iso2": "PN",
+      "sourceUnits": [
+        "PCN"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        492.469,
+        1139.244,
+        552.219,
+        1150.771
+      ],
+      "center": [
+        516.825,
+        1143.646
+      ]
+    },
+    {
+      "id": "pol",
+      "name": "Poland",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Poland",
+      "iso2": "PL",
+      "sourceUnits": [
+        "POL"
+      ],
+      "bbox": [
+        1941.239,
+        351.617,
+        2041.432,
+        410.06
+      ],
+      "center": [
+        1994.905,
+        380.097
+      ]
+    },
+    {
+      "id": "prt",
+      "name": "Portugal",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Portugal",
+      "iso2": "PT",
+      "sourceUnits": [
+        "PRX"
+      ],
+      "bbox": [
+        1487.151,
+        478.464,
+        1737.941,
+        599.708
+      ],
+      "center": [
+        1717.283,
+        503.933
+      ]
+    },
+    {
+      "id": "st-p",
+      "name": "Príncipe",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "São Tomé and Principe",
+      "iso2": "ST",
+      "sourceUnits": [
+        "ST-P"
+      ],
+      "parentId": "stp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1873.294,
+        883.002,
+        1874.627,
+        884.688
+      ],
+      "center": [
+        1873.959,
+        883.798
+      ]
+    },
+    {
+      "id": "pri",
+      "name": "Puerto Rico",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United States of America",
+      "iso2": "PR",
+      "sourceUnits": [
+        "PRI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1120.622,
+        714.772,
+        1147.554,
+        720.771
+      ],
+      "center": [
+        1135.189,
+        717.653
+      ]
+    },
+    {
+      "id": "sop",
+      "name": "Puntland",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Somalia",
+      "iso2": "SO",
+      "sourceUnits": [
+        "SOP"
+      ],
+      "parentId": "som",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2264.67,
+        780.109,
+        2314.17,
+        840.013
+      ],
+      "center": [
+        2292.768,
+        811.437
+      ]
+    },
+    {
+      "id": "qat",
+      "name": "Qatar",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Qatar",
+      "iso2": "QA",
+      "sourceUnits": [
+        "QAT"
+      ],
+      "bbox": [
+        2307.51,
+        638.399,
+        2316.165,
+        654.401
+      ],
+      "center": [
+        2311.435,
+        647.626
+      ]
+    },
+    {
+      "id": "es-mc",
+      "name": "Region of Murcia",
+      "kind": "territory",
+      "aliases": [
+        "Murcia"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-MU"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1776.615,
+        512.459,
+        1792.988,
+        526.19
+      ],
+      "center": [
+        1785.16,
+        519.957
+      ]
+    },
+    {
+      "id": "ru-da",
+      "name": "Republic of Dagestan",
+      "kind": "territory",
+      "aliases": [
+        "Dagestan"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-DA"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2251.05,
+        449.995,
+        2285.789,
+        488.073
+      ],
+      "center": [
+        2268.692,
+        469.856
+      ]
+    },
+    {
+      "id": "ru-mo",
+      "name": "Republic of Mordovia",
+      "kind": "territory",
+      "aliases": [
+        "Mordovia"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-MO"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2221.836,
+        348.232,
+        2267.425,
+        363.386
+      ],
+      "center": [
+        2244.441,
+        356.301
+      ]
+    },
+    {
+      "id": "ru-ta",
+      "name": "Republic of Tatarstan",
+      "kind": "territory",
+      "aliases": [
+        "Tatarstan"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-TA"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2272.419,
+        333.239,
+        2342.309,
+        360.308
+      ],
+      "center": [
+        2309.111,
+        346.407
+      ]
+    },
+    {
+      "id": "cog",
+      "name": "Republic of the Congo",
+      "kind": "country",
+      "aliases": [
+        "Congo Republic",
+        "Congo Brazzaville",
+        "Republic of Congo"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Republic of the Congo",
+      "iso2": "CG",
+      "sourceUnits": [
+        "COG"
+      ],
+      "bbox": [
+        1911.14,
+        862.917,
+        1986.424,
+        950.196
+      ],
+      "center": [
+        1959.005,
+        898.577
+      ]
+    },
+    {
+      "id": "bis",
+      "name": "Republika Srpska",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Bosnia and Herzegovina",
+      "iso2": "BA",
+      "sourceUnits": [
+        "BIS"
+      ],
+      "parentId": "bih",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1962.631,
+        447.155,
+        1996.189,
+        474.408
+      ],
+      "center": [
+        1987.812,
+        462.643
+      ]
+    },
+    {
+      "id": "mu-ro",
+      "name": "Rodrigues",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "Mauritius",
+      "iso2": "MU",
+      "sourceUnits": [
+        "MU-RO"
+      ],
+      "parentId": "mus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2433.323,
+        1096.699,
+        2434.939,
+        1097.672
+      ],
+      "center": [
+        2434.105,
+        1097.125
+      ]
+    },
+    {
+      "id": "rou",
+      "name": "Romania",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Romania",
+      "iso2": "RO",
+      "sourceUnits": [
+        "ROU"
+      ],
+      "bbox": [
+        2002.428,
+        417.252,
+        2096.996,
+        463.5
+      ],
+      "center": [
+        2049.726,
+        442.668
+      ]
+    },
+    {
+      "id": "rus",
+      "name": "Russia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RUS"
+      ],
+      "bbox": [
+        0.0,
+        81.413,
+        3600.0,
+        488.073
+      ],
+      "center": [
+        2246.865,
+        317.506
+      ]
+    },
+    {
+      "id": "rwa",
+      "name": "Rwanda",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Rwanda",
+      "iso2": "RW",
+      "sourceUnits": [
+        "RWA"
+      ],
+      "bbox": [
+        2088.572,
+        910.587,
+        2108.878,
+        928.269
+      ],
+      "center": [
+        2101.039,
+        918.972
+      ]
+    },
+    {
+      "id": "reu",
+      "name": "Réunion",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "France",
+      "iso2": "RE",
+      "sourceUnits": [
+        "REU"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2352.254,
+        1108.614,
+        2358.545,
+        1113.708
+      ],
+      "center": [
+        2355.357,
+        1111.135
+      ]
+    },
+    {
+      "id": "my-12",
+      "name": "Sabah",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Malaysia",
+      "iso2": "MY",
+      "sourceUnits": [
+        "MY-12"
+      ],
+      "parentId": "mys",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2953.596,
+        826.442,
+        2992.781,
+        858.54
+      ],
+      "center": [
+        2971.257,
+        846.659
+      ]
+    },
+    {
+      "id": "blm",
+      "name": "Saint Barthélemy",
+      "kind": "territory",
+      "aliases": [
+        "St Barthélemy",
+        "St. Barthélemy"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "France",
+      "iso2": "BL",
+      "sourceUnits": [
+        "BLM"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1171.327,
+        720.709,
+        1172.083,
+        721.18
+      ],
+      "center": [
+        1171.668,
+        720.98
+      ]
+    },
+    {
+      "id": "shn",
+      "name": "Saint Helena",
+      "kind": "territory",
+      "aliases": [
+        "St Helena",
+        "St. Helena"
+      ],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "United Kingdom",
+      "iso2": "SH",
+      "sourceUnits": [
+        "SHN"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1655.823,
+        978.779,
+        1743.496,
+        1303.979
+      ],
+      "center": [
+        1742.874,
+        1059.505
+      ]
+    },
+    {
+      "id": "kna",
+      "name": "Saint Kitts and Nevis",
+      "kind": "country",
+      "aliases": [
+        "St Kitts and Nevis",
+        "St. Kitts and Nevis"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Saint Kitts and Nevis",
+      "iso2": "KN",
+      "sourceUnits": [
+        "KNA"
+      ],
+      "bbox": [
+        1171.389,
+        725.842,
+        1174.632,
+        728.995
+      ],
+      "center": [
+        1172.42,
+        726.634
+      ]
+    },
+    {
+      "id": "lca",
+      "name": "Saint Lucia",
+      "kind": "country",
+      "aliases": [
+        "St Lucia",
+        "St. Lucia"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Saint Lucia",
+      "iso2": "LC",
+      "sourceUnits": [
+        "LCA"
+      ],
+      "bbox": [
+        1189.215,
+        758.881,
+        1191.17,
+        762.853
+      ],
+      "center": [
+        1190.199,
+        761.076
+      ]
+    },
+    {
+      "id": "maf",
+      "name": "Saint Martin",
+      "kind": "territory",
+      "aliases": [
+        "St Martin",
+        "St. Martin"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "France",
+      "iso2": "MF",
+      "sourceUnits": [
+        "MAF"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1168.532,
+        718.779,
+        1169.893,
+        719.666
+      ],
+      "center": [
+        1169.506,
+        719.187
+      ]
+    },
+    {
+      "id": "spm",
+      "name": "Saint Pierre and Miquelon",
+      "kind": "territory",
+      "aliases": [
+        "St Pierre and Miquelon",
+        "St. Pierre and Miquelon"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "France",
+      "iso2": "PM",
+      "sourceUnits": [
+        "SPM"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1236.034,
+        428.587,
+        1238.552,
+        432.472
+      ],
+      "center": [
+        1236.676,
+        429.597
+      ]
+    },
+    {
+      "id": "vct",
+      "name": "Saint Vincent and the Grenadines",
+      "kind": "country",
+      "aliases": [
+        "St Vincent and the Grenadines",
+        "St. Vincent and the Grenadines"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Saint Vincent and the Grenadines",
+      "iso2": "VC",
+      "sourceUnits": [
+        "VCT"
+      ],
+      "bbox": [
+        1185.402,
+        766.192,
+        1188.761,
+        774.148
+      ],
+      "center": [
+        1186.641,
+        769.121
+      ]
+    },
+    {
+      "id": "ru-sa",
+      "name": "Sakha (Yakutia)",
+      "kind": "territory",
+      "aliases": [
+        "Sakha",
+        "Yakutia"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-SA"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2855.402,
+        128.742,
+        3428.469,
+        345.348
+      ],
+      "center": [
+        3098.809,
+        240.053
+      ]
+    },
+    {
+      "id": "wsm",
+      "name": "Samoa",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Samoa",
+      "iso2": "WS",
+      "sourceUnits": [
+        "WSM"
+      ],
+      "bbox": [
+        72.174,
+        1034.628,
+        85.623,
+        1040.528
+      ],
+      "center": [
+        75.618,
+        1036.391
+      ]
+    },
+    {
+      "id": "smr",
+      "name": "San Marino",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "San Marino",
+      "iso2": "SM",
+      "sourceUnits": [
+        "SMR"
+      ],
+      "bbox": [
+        1923.856,
+        460.174,
+        1924.924,
+        461.079
+      ],
+      "center": [
+        1924.412,
+        460.661
+      ]
+    },
+    {
+      "id": "my-13",
+      "name": "Sarawak",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Malaysia",
+      "iso2": "MY",
+      "sourceUnits": [
+        "MY-13"
+      ],
+      "parentId": "mys",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2895.284,
+        850.377,
+        2956.754,
+        891.486
+      ],
+      "center": [
+        2932.853,
+        874.121
+      ]
+    },
+    {
+      "id": "it-88",
+      "name": "Sardinia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Italy",
+      "iso2": "IT",
+      "sourceUnits": [
+        "IT-CI",
+        "IT-SS",
+        "IT-NU",
+        "IT-OT",
+        "IT-OR",
+        "IT-VS",
+        "IT-CA",
+        "IT-OG"
+      ],
+      "parentId": "ita",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1881.338,
+        487.374,
+        1898.267,
+        511.357
+      ],
+      "center": [
+        1891.661,
+        506.212
+      ]
+    },
+    {
+      "id": "sark",
+      "name": "Sark",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GG",
+      "sourceUnits": [
+        "GGS"
+      ],
+      "subtype": "Self-governing Crown jurisdiction",
+      "bbox": [
+        1776.219,
+        405.532,
+        1776.456,
+        405.884
+      ],
+      "center": [
+        1776.339,
+        405.702
+      ]
+    },
+    {
+      "id": "sau",
+      "name": "Saudi Arabia",
+      "kind": "country",
+      "aliases": [
+        "KSA"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Saudi Arabia",
+      "iso2": "SA",
+      "sourceUnits": [
+        "SAU"
+      ],
+      "bbox": [
+        2145.728,
+        578.787,
+        2356.376,
+        736.29
+      ],
+      "center": [
+        2246.996,
+        661.931
+      ]
+    },
+    {
+      "id": "scr",
+      "name": "Scarborough Shoal",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Asia",
+      "sovereign": "Scarborough Reef",
+      "iso2": "-99",
+      "sourceUnits": [
+        "SCR"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2977.519,
+        748.456,
+        2977.557,
+        748.499
+      ],
+      "center": [
+        2977.538,
+        748.48
+      ]
+    },
+    {
+      "id": "sct",
+      "name": "Scotland",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GB",
+      "sourceUnits": [
+        "SCT"
+      ],
+      "parentId": "gbr",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1663.087,
+        291.521,
+        1792.452,
+        353.67
+      ],
+      "center": [
+        1759.878,
+        333.141
+      ]
+    },
+    {
+      "id": "sen",
+      "name": "Senegal",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Senegal",
+      "iso2": "SN",
+      "sourceUnits": [
+        "SEN"
+      ],
+      "bbox": [
+        1624.64,
+        733.086,
+        1686.222,
+        776.944
+      ],
+      "center": [
+        1652.214,
+        748.619
+      ]
+    },
+    {
+      "id": "srb",
+      "name": "Serbia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Republic of Serbia",
+      "iso2": "RS",
+      "sourceUnits": [
+        "SRS"
+      ],
+      "bbox": [
+        1988.45,
+        438.261,
+        2029.846,
+        477.651
+      ],
+      "center": [
+        2014.215,
+        461.505
+      ]
+    },
+    {
+      "id": "ser",
+      "name": "Serranilla Bank",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "North America",
+      "sovereign": "Serranilla Bank",
+      "iso2": "-99",
+      "sourceUnits": [
+        "SER"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1013.596,
+        741.327,
+        1013.631,
+        741.379
+      ],
+      "center": [
+        1013.618,
+        741.357
+      ]
+    },
+    {
+      "id": "syc",
+      "name": "Seychelles",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "Seychelles",
+      "iso2": "SC",
+      "sourceUnits": [
+        "SYC"
+      ],
+      "bbox": [
+        2262.074,
+        937.911,
+        2362.874,
+        997.555
+      ],
+      "center": [
+        2354.802,
+        946.767
+      ]
+    },
+    {
+      "id": "kas",
+      "name": "Siachen Glacier",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Asia",
+      "sovereign": "Kashmir",
+      "iso2": "-99",
+      "sourceUnits": [
+        "KAS"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2567.774,
+        543.522,
+        2578.003,
+        548.896
+      ],
+      "center": [
+        2571.296,
+        546.594
+      ]
+    },
+    {
+      "id": "it-82",
+      "name": "Sicily",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Italy",
+      "iso2": "IT",
+      "sourceUnits": [
+        "IT-TP",
+        "IT-ME",
+        "IT-PA",
+        "IT-AG",
+        "IT-CL",
+        "IT-RG",
+        "IT-SR",
+        "IT-CT",
+        "IT-EN"
+      ],
+      "parentId": "ita",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1919.222,
+        511.88,
+        1956.516,
+        545.108
+      ],
+      "center": [
+        1935.908,
+        521.317
+      ]
+    },
+    {
+      "id": "sle",
+      "name": "Sierra Leone",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Sierra Leone",
+      "iso2": "SL",
+      "sourceUnits": [
+        "SLE"
+      ],
+      "bbox": [
+        1666.989,
+        800.04,
+        1697.178,
+        830.806
+      ],
+      "center": [
+        1682.363,
+        813.826
+      ]
+    },
+    {
+      "id": "sgp",
+      "name": "Singapore",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Singapore",
+      "iso2": "SG",
+      "sourceUnits": [
+        "SGP"
+      ],
+      "bbox": [
+        2836.404,
+        885.514,
+        2840.034,
+        887.357
+      ],
+      "center": [
+        2838.169,
+        886.334
+      ]
+    },
+    {
+      "id": "sxm",
+      "name": "Sint Maarten",
+      "kind": "territory",
+      "aliases": [
+        "St Maarten",
+        "Saint Maarten"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Netherlands",
+      "iso2": "SX",
+      "sourceUnits": [
+        "SXM"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1168.811,
+        719.379,
+        1169.824,
+        719.809
+      ],
+      "center": [
+        1169.299,
+        719.591
+      ]
+    },
+    {
+      "id": "svk",
+      "name": "Slovakia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Slovakia",
+      "iso2": "SK",
+      "sourceUnits": [
+        "SVK"
+      ],
+      "bbox": [
+        1968.445,
+        403.982,
+        2025.396,
+        422.5
+      ],
+      "center": [
+        1990.499,
+        412.66
+      ]
+    },
+    {
+      "id": "svn",
+      "name": "Slovenia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Slovenia",
+      "iso2": "SI",
+      "sourceUnits": [
+        "SVN"
+      ],
+      "bbox": [
+        1933.653,
+        431.36,
+        1965.153,
+        445.764
+      ],
+      "center": [
+        1949.153,
+        439.392
+      ]
+    },
+    {
+      "id": "slb",
+      "name": "Solomon Islands",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Solomon Islands",
+      "iso2": "SB",
+      "sourceUnits": [
+        "SLB"
+      ],
+      "bbox": [
+        3355.08,
+        965.999,
+        3488.259,
+        1022.906
+      ],
+      "center": [
+        3391.705,
+        980.295
+      ]
+    },
+    {
+      "id": "som",
+      "name": "Somalia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Somalia",
+      "iso2": "SO",
+      "sourceUnits": [
+        "SOX"
+      ],
+      "bbox": [
+        2209.654,
+        780.109,
+        2314.17,
+        916.963
+      ],
+      "center": [
+        2239.35,
+        868.399
+      ]
+    },
+    {
+      "id": "sol",
+      "name": "Somaliland",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Somaliland",
+      "iso2": "-99",
+      "sourceUnits": [
+        "SOL"
+      ],
+      "subtype": "Disputed territory",
+      "bbox": [
+        2226.472,
+        785.011,
+        2289.391,
+        820.035
+      ],
+      "center": [
+        2267.316,
+        805.561
+      ]
+    },
+    {
+      "id": "zaf",
+      "name": "South Africa",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "South Africa",
+      "iso2": "ZA",
+      "sourceUnits": [
+        "ZAF"
+      ],
+      "bbox": [
+        1964.7,
+        1121.265,
+        2179.778,
+        1369.658
+      ],
+      "center": [
+        2036.657,
+        1197.088
+      ]
+    },
+    {
+      "id": "ni-as",
+      "name": "South Caribbean Coast Autonomous Region",
+      "kind": "territory",
+      "aliases": [
+        "Atlántico Sur"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Nicaragua",
+      "iso2": "NI",
+      "sourceUnits": [
+        "NI-AS"
+      ],
+      "parentId": "nic",
+      "subtype": "Autonomous region",
+      "bbox": [
+        947.721,
+        767.177,
+        969.789,
+        790.56
+      ],
+      "center": [
+        957.806,
+        776.702
+      ]
+    },
+    {
+      "id": "sgs",
+      "name": "South Georgia and the South Sandwich Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Seven seas (open ocean)",
+      "sovereign": "United Kingdom",
+      "iso2": "GS",
+      "sourceUnits": [
+        "SGS"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1419.13,
+        1439.724,
+        1537.607,
+        1494.728
+      ],
+      "center": [
+        1489.368,
+        1456.834
+      ]
+    },
+    {
+      "id": "kor",
+      "name": "South Korea",
+      "kind": "country",
+      "aliases": [
+        "Republic of Korea"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "South Korea",
+      "iso2": "KR",
+      "sourceUnits": [
+        "KOR",
+        "KNX"
+      ],
+      "bbox": [
+        3046.136,
+        513.757,
+        3118.625,
+        568.024
+      ],
+      "center": [
+        3081.295,
+        536.151
+      ]
+    },
+    {
+      "id": "south-ossetia",
+      "name": "South Ossetia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Disputed",
+      "iso2": "GE",
+      "sourceUnits": [
+        "B37"
+      ],
+      "subtype": "Disputed territory",
+      "statusNote": "Self-administered; claimed by Georgia. Display does not imply recognition.",
+      "bbox": [
+        2235.594,
+        472.468,
+        2246.487,
+        480.101
+      ],
+      "center": [
+        2241.308,
+        476.092
+      ]
+    },
+    {
+      "id": "ssd",
+      "name": "South Sudan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "South Sudan",
+      "iso2": "SS",
+      "sourceUnits": [
+        "SDS"
+      ],
+      "bbox": [
+        2041.216,
+        777.838,
+        2159.208,
+        865.098
+      ],
+      "center": [
+        2103.902,
+        827.695
+      ]
+    },
+    {
+      "id": "spi",
+      "name": "Southern Patagonian Ice Field",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "South America",
+      "sovereign": "Southern Patagonian Ice Field",
+      "iso2": "-99",
+      "sourceUnits": [
+        "SPI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1064.12,
+        1392.728,
+        1069.426,
+        1397.6
+      ],
+      "center": [
+        1066.862,
+        1395.11
+      ]
+    },
+    {
+      "id": "esp",
+      "name": "Spain",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ESP"
+      ],
+      "bbox": [
+        1618.328,
+        462.066,
+        1843.371,
+        623.578
+      ],
+      "center": [
+        1765.353,
+        499.09
+      ]
+    },
+    {
+      "id": "lka",
+      "name": "Sri Lanka",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Sri Lanka",
+      "iso2": "LK",
+      "sourceUnits": [
+        "LKA"
+      ],
+      "bbox": [
+        2596.558,
+        801.704,
+        2618.903,
+        840.763
+      ],
+      "center": [
+        2607.048,
+        824.189
+      ]
+    },
+    {
+      "id": "sdn",
+      "name": "Sudan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Sudan",
+      "iso2": "SD",
+      "sourceUnits": [
+        "SDN"
+      ],
+      "bbox": [
+        2018.094,
+        677.73,
+        2186.039,
+        813.184
+      ],
+      "center": [
+        2092.607,
+        736.693
+      ]
+    },
+    {
+      "id": "sur",
+      "name": "Suriname",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Suriname",
+      "iso2": "SR",
+      "sourceUnits": [
+        "SUR"
+      ],
+      "bbox": [
+        1219.323,
+        839.884,
+        1260.136,
+        881.665
+      ],
+      "center": [
+        1240.891,
+        858.56
+      ]
+    },
+    {
+      "id": "nsv",
+      "name": "Svalbard",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Norway",
+      "iso2": "SJ",
+      "sourceUnits": [
+        "NSV"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1904.844,
+        92.299,
+        2136.404,
+        156.526
+      ],
+      "center": [
+        1980.807,
+        112.217
+      ]
+    },
+    {
+      "id": "swe",
+      "name": "Sweden",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Sweden",
+      "iso2": "SE",
+      "sourceUnits": [
+        "SWE"
+      ],
+      "bbox": [
+        1911.082,
+        209.636,
+        2041.634,
+        346.573
+      ],
+      "center": [
+        1990.171,
+        241.408
+      ]
+    },
+    {
+      "id": "che",
+      "name": "Switzerland",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Switzerland",
+      "iso2": "CH",
+      "sourceUnits": [
+        "CHE"
+      ],
+      "bbox": [
+        1859.548,
+        421.988,
+        1904.666,
+        441.793
+      ],
+      "center": [
+        1874.64,
+        432.809
+      ]
+    },
+    {
+      "id": "syr",
+      "name": "Syria",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Syria",
+      "iso2": "SY",
+      "sourceUnits": [
+        "SYX",
+        "SYU"
+      ],
+      "bbox": [
+        2157.234,
+        526.751,
+        2223.772,
+        576.87
+      ],
+      "center": [
+        2182.816,
+        549.924
+      ]
+    },
+    {
+      "id": "stp",
+      "name": "São Tomé and Príncipe",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "São Tomé and Principe",
+      "iso2": "ST",
+      "sourceUnits": [
+        "STP"
+      ],
+      "bbox": [
+        1864.617,
+        883.002,
+        1874.627,
+        899.759
+      ],
+      "center": [
+        1870.21,
+        890.291
+      ]
+    },
+    {
+      "id": "twn",
+      "name": "Taiwan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Taiwan",
+      "iso2": "TW",
+      "sourceUnits": [
+        "TWN"
+      ],
+      "bbox": [
+        2982.796,
+        647.126,
+        3020.054,
+        680.954
+      ],
+      "center": [
+        3008.682,
+        663.476
+      ]
+    },
+    {
+      "id": "tjk",
+      "name": "Tajikistan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Tajikistan",
+      "iso2": "TJ",
+      "sourceUnits": [
+        "TJK"
+      ],
+      "bbox": [
+        2473.427,
+        489.6,
+        2551.641,
+        533.214
+      ],
+      "center": [
+        2525.873,
+        518.002
+      ]
+    },
+    {
+      "id": "tza",
+      "name": "Tanzania",
+      "kind": "country",
+      "aliases": [
+        "United Republic of Tanzania"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "United Republic of Tanzania",
+      "iso2": "TZ",
+      "sourceUnits": [
+        "TZA"
+      ],
+      "bbox": [
+        2093.21,
+        909.858,
+        2204.494,
+        1017.313
+      ],
+      "center": [
+        2149.592,
+        960.519
+      ]
+    },
+    {
+      "id": "tha",
+      "name": "Thailand",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Thailand",
+      "iso2": "TH",
+      "sourceUnits": [
+        "THA"
+      ],
+      "bbox": [
+        2773.514,
+        695.55,
+        2856.51,
+        843.701
+      ],
+      "center": [
+        2810.732,
+        745.403
+      ]
+    },
+    {
+      "id": "gmb",
+      "name": "The Gambia",
+      "kind": "country",
+      "aliases": [
+        "Gambia"
+      ],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Gambia",
+      "iso2": "GM",
+      "sourceUnits": [
+        "GMB"
+      ],
+      "bbox": [
+        1631.703,
+        761.8,
+        1661.813,
+        769.35
+      ],
+      "center": [
+        1650.017,
+        763.583
+      ]
+    },
+    {
+      "id": "cn-xz",
+      "name": "Tibet",
+      "kind": "territory",
+      "aliases": [
+        "Tibet Autonomous Region",
+        "Xizang"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "CN",
+      "sourceUnits": [
+        "CN-XZ"
+      ],
+      "parentId": "chn",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2583.81,
+        535.452,
+        2791.088,
+        626.876
+      ],
+      "center": [
+        2681.185,
+        583.136
+      ]
+    },
+    {
+      "id": "tls",
+      "name": "Timor-Leste",
+      "kind": "country",
+      "aliases": [
+        "East Timor"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "East Timor",
+      "iso2": "TL",
+      "sourceUnits": [
+        "TLS"
+      ],
+      "bbox": [
+        3040.3,
+        981.35,
+        3073.132,
+        995.012
+      ],
+      "center": [
+        3058.547,
+        988.037
+      ]
+    },
+    {
+      "id": "tgo",
+      "name": "Togo",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Togo",
+      "iso2": "TG",
+      "sourceUnits": [
+        "TGO"
+      ],
+      "bbox": [
+        1798.339,
+        788.65,
+        1817.824,
+        838.995
+      ],
+      "center": [
+        1810.581,
+        811.928
+      ]
+    },
+    {
+      "id": "tkl",
+      "name": "Tokelau",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "New Zealand",
+      "iso2": "TK",
+      "sourceUnits": [
+        "TKL"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        74.974,
+        985.432,
+        88.143,
+        993.617
+      ],
+      "center": [
+        75.137,
+        985.618
+      ]
+    },
+    {
+      "id": "ton",
+      "name": "Tonga",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Tonga",
+      "iso2": "TO",
+      "sourceUnits": [
+        "TON"
+      ],
+      "bbox": [
+        37.807,
+        1055.595,
+        60.857,
+        1123.388
+      ],
+      "center": [
+        48.37,
+        1112.1
+      ]
+    },
+    {
+      "id": "md-transnistria",
+      "name": "Transnistria",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Moldova",
+      "iso2": "MD",
+      "sourceUnits": [
+        "MD-CAM",
+        "MD-SN",
+        "MD-GRI",
+        "MD-BD",
+        "MD-SN"
+      ],
+      "parentId": "mda",
+      "subtype": "Autonomous region",
+      "statusNote": "Self-administered disputed territory; claimed by Moldova. Source geometry is generalized.",
+      "bbox": [
+        2084.666,
+        418.44,
+        2099.526,
+        434.469
+      ],
+      "center": [
+        2097.206,
+        432.318
+      ]
+    },
+    {
+      "id": "it-32",
+      "name": "Trentino-Alto Adige/Südtirol",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Italy",
+      "iso2": "IT",
+      "sourceUnits": [
+        "IT-BZ",
+        "IT-TN"
+      ],
+      "parentId": "ita",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1903.692,
+        429.148,
+        1924.696,
+        443.183
+      ],
+      "center": [
+        1914.055,
+        433.062
+      ]
+    },
+    {
+      "id": "tto",
+      "name": "Trinidad and Tobago",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Trinidad and Tobago",
+      "iso2": "TT",
+      "sourceUnits": [
+        "TTO"
+      ],
+      "bbox": [
+        1180.713,
+        786.489,
+        1194.779,
+        799.579
+      ],
+      "center": [
+        1190.816,
+        790.011
+      ]
+    },
+    {
+      "id": "tun",
+      "name": "Tunisia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Tunisia",
+      "iso2": "TN",
+      "sourceUnits": [
+        "TUN"
+      ],
+      "bbox": [
+        1874.798,
+        526.548,
+        1915.641,
+        597.711
+      ],
+      "center": [
+        1890.079,
+        563.127
+      ]
+    },
+    {
+      "id": "tur",
+      "name": "Turkey",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Turkey",
+      "iso2": "TR",
+      "sourceUnits": [
+        "TUR"
+      ],
+      "bbox": [
+        2056.633,
+        479.012,
+        2248.07,
+        541.802
+      ],
+      "center": [
+        2145.083,
+        506.546
+      ]
+    },
+    {
+      "id": "cyn",
+      "name": "Turkish Republic of Northern Cyprus",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Northern Cyprus",
+      "iso2": "-99",
+      "sourceUnits": [
+        "CYN"
+      ],
+      "subtype": "Disputed territory",
+      "bbox": [
+        2126.019,
+        543.08,
+        2145.925,
+        549.973
+      ],
+      "center": [
+        2136.924,
+        547.839
+      ]
+    },
+    {
+      "id": "tkm",
+      "name": "Turkmenistan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Turkmenistan",
+      "iso2": "TM",
+      "sourceUnits": [
+        "TKM"
+      ],
+      "bbox": [
+        2324.377,
+        472.088,
+        2466.458,
+        548.594
+      ],
+      "center": [
+        2386.766,
+        501.448
+      ]
+    },
+    {
+      "id": "tca",
+      "name": "Turks and Caicos Islands",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United Kingdom",
+      "iso2": "TC",
+      "sourceUnits": [
+        "TCA"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1075.187,
+        680.408,
+        1088.711,
+        687.099
+      ],
+      "center": [
+        1082.473,
+        681.834
+      ]
+    },
+    {
+      "id": "ru-ty",
+      "name": "Tuva Republic",
+      "kind": "territory",
+      "aliases": [
+        "Tuva"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-TY"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2687.357,
+        362.709,
+        2792.498,
+        402.745
+      ],
+      "center": [
+        2747.872,
+        384.226
+      ]
+    },
+    {
+      "id": "tuv",
+      "name": "Tuvalu",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Tuvalu",
+      "iso2": "TV",
+      "sourceUnits": [
+        "TUV"
+      ],
+      "bbox": [
+        3561.253,
+        956.775,
+        3599.067,
+        994.207
+      ],
+      "center": [
+        3592.096,
+        985.137
+      ]
+    },
+    {
+      "id": "ru-ud",
+      "name": "Udmurtia",
+      "kind": "territory",
+      "aliases": [
+        "Udmurt"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-UD"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2311.156,
+        314.562,
+        2343.998,
+        341.433
+      ],
+      "center": [
+        2327.872,
+        328.247
+      ]
+    },
+    {
+      "id": "uga",
+      "name": "Uganda",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Uganda",
+      "iso2": "UG",
+      "sourceUnits": [
+        "UGA"
+      ],
+      "bbox": [
+        2095.485,
+        857.803,
+        2150.065,
+        914.752
+      ],
+      "center": [
+        2129.486,
+        880.274
+      ]
+    },
+    {
+      "id": "ukr",
+      "name": "Ukraine",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Ukraine",
+      "iso2": "UA",
+      "sourceUnits": [
+        "UKR"
+      ],
+      "bbox": [
+        2021.328,
+        376.311,
+        2201.595,
+        447.864
+      ],
+      "center": [
+        2121.409,
+        402.753
+      ]
+    },
+    {
+      "id": "are",
+      "name": "United Arab Emirates",
+      "kind": "country",
+      "aliases": [
+        "UAE"
+      ],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "United Arab Emirates",
+      "iso2": "AE",
+      "sourceUnits": [
+        "ARE"
+      ],
+      "bbox": [
+        2315.693,
+        639.252,
+        2363.836,
+        673.791
+      ],
+      "center": [
+        2345.473,
+        665.337
+      ]
+    },
+    {
+      "id": "gbr",
+      "name": "United Kingdom",
+      "kind": "country",
+      "aliases": [
+        "UK",
+        "United Kingdom of Great Britain and Northern Ireland",
+        "Britain",
+        "Great Britain"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GB",
+      "sourceUnits": [
+        "ENG"
+      ],
+      "bbox": [
+        1663.087,
+        291.521,
+        1817.712,
+        400.904
+      ],
+      "center": [
+        1785.98,
+        373.902
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "kind": "country",
+      "aliases": [
+        "USA",
+        "US",
+        "United States of America",
+        "America"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "USA"
+      ],
+      "bbox": [
+        8.565,
+        185.875,
+        3597.809,
+        710.939
+      ],
+      "center": [
+        825.174,
+        504.615
+      ]
+    },
+    {
+      "id": "vir",
+      "name": "United States Virgin Islands",
+      "kind": "territory",
+      "aliases": [
+        "USVI",
+        "U.S. Virgin Islands",
+        "US Virgin Islands"
+      ],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "United States of America",
+      "iso2": "VI",
+      "sourceUnits": [
+        "VIR"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        1149.585,
+        716.134,
+        1154.406,
+        723.172
+      ],
+      "center": [
+        1152.208,
+        722.533
+      ]
+    },
+    {
+      "id": "ury",
+      "name": "Uruguay",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Uruguay",
+      "iso2": "UY",
+      "sourceUnits": [
+        "URY"
+      ],
+      "bbox": [
+        1215.606,
+        1200.969,
+        1268.892,
+        1249.734
+      ],
+      "center": [
+        1240.331,
+        1229.611
+      ]
+    },
+    {
+      "id": "uzb",
+      "name": "Uzbekistan",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Uzbekistan",
+      "iso2": "UZ",
+      "sourceUnits": [
+        "UZB"
+      ],
+      "bbox": [
+        2359.758,
+        444.413,
+        2531.486,
+        528.149
+      ],
+      "center": [
+        2440.054,
+        483.064
+      ]
+    },
+    {
+      "id": "es-vc",
+      "name": "Valencian Community",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Spain",
+      "iso2": "ES",
+      "sourceUnits": [
+        "ES-CS",
+        "ES-V",
+        "ES-A"
+      ],
+      "parentId": "esp",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1784.817,
+        492.201,
+        1805.238,
+        521.571
+      ],
+      "center": [
+        1792.158,
+        506.551
+      ]
+    },
+    {
+      "id": "vut",
+      "name": "Vanuatu",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "Vanuatu",
+      "iso2": "VU",
+      "sourceUnits": [
+        "VUT"
+      ],
+      "bbox": [
+        3465.205,
+        1030.649,
+        3498.989,
+        1102.531
+      ],
+      "center": [
+        3469.088,
+        1053.715
+      ]
+    },
+    {
+      "id": "vat",
+      "name": "Vatican City",
+      "kind": "country",
+      "aliases": [
+        "Vatican",
+        "Holy See"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Vatican",
+      "iso2": "VA",
+      "sourceUnits": [
+        "VAT"
+      ],
+      "statusNote": "Vatican footprint corrected from a published geographic outline; Italy uses the matching cutout.",
+      "bbox": [
+        1924.458,
+        480.927,
+        1924.583,
+        480.997
+      ],
+      "center": [
+        1924.534,
+        480.967
+      ]
+    },
+    {
+      "id": "ven",
+      "name": "Venezuela",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "South America",
+      "sovereign": "Venezuela",
+      "iso2": "VE",
+      "sourceUnits": [
+        "VEN"
+      ],
+      "bbox": [
+        1066.089,
+        742.971,
+        1201.844,
+        893.507
+      ],
+      "center": [
+        1154.006,
+        828.175
+      ]
+    },
+    {
+      "id": "vnm",
+      "name": "Vietnam",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Vietnam",
+      "iso2": "VN",
+      "sourceUnits": [
+        "VNM"
+      ],
+      "bbox": [
+        2821.187,
+        666.337,
+        2894.724,
+        814.344
+      ],
+      "center": [
+        2853.873,
+        682.846
+      ]
+    },
+    {
+      "id": "srv",
+      "name": "Vojvodina",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Republic of Serbia",
+      "iso2": "RS",
+      "sourceUnits": [
+        "SRV"
+      ],
+      "parentId": "srb",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1988.45,
+        438.261,
+        2015.391,
+        453.682
+      ],
+      "center": [
+        2000.62,
+        446.013
+      ]
+    },
+    {
+      "id": "pga",
+      "name": "Wake Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Asia",
+      "sovereign": "Spratly Islands",
+      "iso2": "-99",
+      "sourceUnits": [
+        "PGA"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        2940.277,
+        788.82,
+        2958.488,
+        803.205
+      ],
+      "center": [
+        2958.196,
+        792.705
+      ]
+    },
+    {
+      "id": "wqi",
+      "name": "Wake Island",
+      "kind": "territory",
+      "aliases": [],
+      "playable": false,
+      "continent": "Oceania",
+      "sovereign": "United States of America",
+      "iso2": "US",
+      "sourceUnits": [
+        "WQI"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        3466.194,
+        706.943,
+        3466.524,
+        707.244
+      ],
+      "center": [
+        3466.445,
+        707.143
+      ]
+    },
+    {
+      "id": "wls",
+      "name": "Wales",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "United Kingdom",
+      "iso2": "GB",
+      "sourceUnits": [
+        "WLS"
+      ],
+      "parentId": "gbr",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1746.891,
+        365.731,
+        1773.53,
+        386.158
+      ],
+      "center": [
+        1762.654,
+        376.951
+      ]
+    },
+    {
+      "id": "wlf",
+      "name": "Wallis and Futuna",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Oceania",
+      "sovereign": "France",
+      "iso2": "WF",
+      "sourceUnits": [
+        "WLF"
+      ],
+      "subtype": "Dependency or special territory",
+      "bbox": [
+        18.143,
+        1032.089,
+        38.744,
+        1043.194
+      ],
+      "center": [
+        18.626,
+        1042.864
+      ]
+    },
+    {
+      "id": "bwr",
+      "name": "Wallonia",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Belgium",
+      "iso2": "BE",
+      "sourceUnits": [
+        "BWR"
+      ],
+      "parentId": "bel",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1828.422,
+        391.884,
+        1863.745,
+        405.048
+      ],
+      "center": [
+        1849.921,
+        396.879
+      ]
+    },
+    {
+      "id": "sah",
+      "name": "Western Sahara",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Western Sahara",
+      "iso2": "EH",
+      "sourceUnits": [
+        "SAH"
+      ],
+      "subtype": "Disputed territory",
+      "bbox": [
+        1628.954,
+        623.385,
+        1713.192,
+        692.331
+      ],
+      "center": [
+        1673.697,
+        660.324
+      ]
+    },
+    {
+      "id": "cn-xj",
+      "name": "Xinjiang",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "China",
+      "iso2": "CN",
+      "sourceUnits": [
+        "CN-XJ"
+      ],
+      "parentId": "chn",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2536.023,
+        408.342,
+        2763.663,
+        556.6
+      ],
+      "center": [
+        2651.893,
+        489.012
+      ]
+    },
+    {
+      "id": "ru-yan",
+      "name": "Yamalo-Nenets Autonomous Okrug",
+      "kind": "territory",
+      "aliases": [
+        "Yamal-Nenets"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Russia",
+      "iso2": "RU",
+      "sourceUnits": [
+        "RU-YAN"
+      ],
+      "parentId": "rus",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2420.185,
+        164.21,
+        2660.305,
+        278.22
+      ],
+      "center": [
+        2545.278,
+        229.008
+      ]
+    },
+    {
+      "id": "yem",
+      "name": "Yemen",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Yemen",
+      "iso2": "YE",
+      "sourceUnits": [
+        "YEM"
+      ],
+      "bbox": [
+        2225.457,
+        710.044,
+        2345.403,
+        778.886
+      ],
+      "center": [
+        2258.744,
+        746.718
+      ]
+    },
+    {
+      "id": "id-yo",
+      "name": "Yogyakarta",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Asia",
+      "sovereign": "Indonesia",
+      "iso2": "ID",
+      "sourceUnits": [
+        "ID-YO"
+      ],
+      "parentId": "idn",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2900.427,
+        975.601,
+        2908.436,
+        982.008
+      ],
+      "center": [
+        2904.577,
+        979.081
+      ]
+    },
+    {
+      "id": "ca-yt",
+      "name": "Yukon",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "North America",
+      "sovereign": "Canada",
+      "iso2": "CA",
+      "sourceUnits": [
+        "CA-YT"
+      ],
+      "parentId": "can",
+      "subtype": "Autonomous region",
+      "bbox": [
+        389.944,
+        203.458,
+        561.809,
+        299.999
+      ],
+      "center": [
+        444.909,
+        263.674
+      ]
+    },
+    {
+      "id": "zmb",
+      "name": "Zambia",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Zambia",
+      "iso2": "ZM",
+      "sourceUnits": [
+        "ZMB"
+      ],
+      "bbox": [
+        2019.799,
+        981.941,
+        2136.742,
+        1080.692
+      ],
+      "center": [
+        2063.953,
+        1046.608
+      ]
+    },
+    {
+      "id": "tzz",
+      "name": "Zanzibar",
+      "kind": "territory",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "United Republic of Tanzania",
+      "iso2": "TZ",
+      "sourceUnits": [
+        "TZZ"
+      ],
+      "parentId": "tza",
+      "subtype": "Autonomous region",
+      "bbox": [
+        2191.77,
+        948.903,
+        2198.782,
+        964.628
+      ],
+      "center": [
+        2193.551,
+        961.362
+      ]
+    },
+    {
+      "id": "zwe",
+      "name": "Zimbabwe",
+      "kind": "country",
+      "aliases": [],
+      "playable": true,
+      "continent": "Africa",
+      "sovereign": "Zimbabwe",
+      "iso2": "ZW",
+      "sourceUnits": [
+        "ZWE"
+      ],
+      "bbox": [
+        2052.194,
+        1056.148,
+        2130.428,
+        1123.973
+      ],
+      "center": [
+        2099.254,
+        1089.116
+      ]
+    },
+    {
+      "id": "ala",
+      "name": "Åland Islands",
+      "kind": "territory",
+      "aliases": [
+        "Aland",
+        "Aland Islands",
+        "Åland"
+      ],
+      "playable": true,
+      "continent": "Europe",
+      "sovereign": "Finland",
+      "iso2": "AX",
+      "sourceUnits": [
+        "ALD"
+      ],
+      "parentId": "fin",
+      "subtype": "Autonomous region",
+      "bbox": [
+        1995.132,
+        295.192,
+        2010.967,
+        300.955
+      ],
+      "center": [
+        1999.437,
+        297.712
+      ]
+    }
+  ]
+}
