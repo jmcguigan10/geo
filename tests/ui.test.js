@@ -274,13 +274,13 @@ check('atlas searches names, aliases, and regions and shows internal regions wit
   assert.equal(shape('esp').classList.contains('selected'), false);
 });
 
-check('mobile play keeps the live form below the map and restores it after the round', ({ $, submit }) => {
+check('mobile play keeps the live form below the map and restores it after the round', ({ $, document, submit }) => {
   $('start').dispatch('click');
   assert.equal($('mobile-guess-dock').hidden, false);
   assert.equal($('guess-form').parentElement, $('mobile-guess-dock'));
   assert.equal($('answer-feedback').parentElement, $('mobile-guess-dock'));
   assert.equal($('map-viewport').classList.contains('mobile-playing'), true);
-  assert.equal($('mobile-guess-dock').scrolledIntoView, true);
+  assert.equal(document.querySelector('.map-card').scrolledIntoView, true);
   submit('Spain');
   assert.equal($('mobile-round-score').textContent, '1 / 20 found');
   $('give-up').dispatch('click');

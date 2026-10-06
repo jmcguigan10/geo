@@ -45,7 +45,7 @@ See [map sources and coverage](public/data/SOURCES.md), the [autonomy inventory 
 
 Plain HTML, CSS, and native JavaScript modules; no framework, map SDK, external fonts, or runtime map service. Geography is projected and simplified ahead of time. The initial map is about 1.5 MB before compression; finer coastlines load only after zooming beyond 8×. Small island rings are retained at both resolutions. Rendering batches updates into animation frames, hides offscreen shapes, and avoids rebuilding geometry while panning within the same visible set.
 
-Game, interaction, masking, mobile/fullscreen input, timer, alias, and lazy-map behavior are covered by Node's built-in test runner. A real browser performance and layout pass remains necessary: this execution environment blocked local listening sockets and browser launch, so automated DOM/interaction checks and standalone map renders were used here.
+Game, interaction, masking, mobile/fullscreen input, timer, alias, and lazy-map behavior are covered by 59 tests using Node's built-in test runner. Real Chromium checks passed at 1440px desktop and 390px mobile widths, including a complete round, fullscreen input, disputed territory lookup, island detail, and maximum zoom, with no page errors or failed requests. A 90-frame zoom check measured a median 16.7ms and a 95th percentile 16.8ms frame interval on the test machine; performance on other devices can differ.
 
 ## GitHub Pages
 

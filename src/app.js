@@ -60,7 +60,7 @@ function startRound() {
   renderPlaying(true);
   syncMobileAnswer();
   $('answer').focus({ preventScroll: true });
-  if (mobileLayout.matches) $('mobile-guess-dock').scrollIntoView({ block: 'nearest' });
+  if (mobileLayout.matches) document.querySelector('.map-card').scrollIntoView({ block: 'start' });
 }
 
 function renderPlaying(updateMap = false) {
